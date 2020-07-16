@@ -1,4 +1,4 @@
 # Archin-coding.github.io
 blog
 
-This is mt git-blog
+This is my first git-blog.
