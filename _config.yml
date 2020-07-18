@@ -14,16 +14,16 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Archin's Blog
 
 description: Stylish Jekyll Theme
 author:
   name: Archin
   email: th_kim@pusan.ac.kr
   github: https://github.com/Archin-coding
-  twitter: 
-  pinterest: 
-  linkedin: 
+  # twitter: 
+  # pinterest: 
+  # linkedin: 
   bio: Archin's Blog!
   email_md5: 726351295ec82e145928582f595aa3aa
 
