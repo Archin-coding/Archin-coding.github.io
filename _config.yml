@@ -96,12 +96,12 @@ author:
   name             : "Archin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**수학**과 **코딩**을 잘하고 싶은 대학원생"
-  location         : "Somewhere"
+  location         : "Pusan, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "th_kim@pusan.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
