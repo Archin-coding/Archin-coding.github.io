@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: Archin's Blog
+title: 수학, 코딩을 잘 하고 싶은 사람입니다.
 
 defaults:
   -
