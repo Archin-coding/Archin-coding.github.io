@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Archin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**수학**과 **코딩**을 잘하고 싶은 대학원생입니다."
+  bio              : "**수학**과 **코딩**을 잘하고 싶은 대학원생"
   location         : "Somewhere"
   email            :
   links:
