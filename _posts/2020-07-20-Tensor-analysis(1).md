@@ -97,7 +97,7 @@ $$B=\begin{bmatrix} 1 & 6 & 4 \\ 6 & 2 & 2 \\ 4 & 2 & 3 \end{bmatrix}$$
 
 5. $\mathbf{0}$ : zero vector, $\mathbf{1}$ : all $1$ vector, $\mathbf{1}^{(j)}$ : $j$th unit vector.
 
-6. $[n]= \{1,\ldots,n\}$.
+6. $[n]= \left\{1,\ldots,n \right\}$.
 
 7. $\forall \mathbf{x} \in \mathbb{R}^n$ , $\mathrm{supp}(\mathbf{x}) = \{j\in [n]|x_j \neq 0 \}$.
 
