@@ -101,6 +101,6 @@ $$B=\begin{bmatrix} 1 & 6 & 4 \\ 6 & 2 & 2 \\ 4 & 2 & 3 \end{bmatrix}$$
 
 7. $\forall \mathbf{x} \in \mathbb{R}^n$ , $\mathrm{supp}(\mathbf{x}) =$ $\\{ j \in [n] : x_j \neq 0 \\}$.
 
-8. $\left|S\right|$ : cardinality where $S$ : finite set.
+8. $\|S\|$ : cardinality where $S$ : finite set.
 
 9. $\mathscr{O}$ : zero tensor in $T_{m,n}$, $\mathscr{I}$ : all $1$ tensor in $T_{m,n}$.
