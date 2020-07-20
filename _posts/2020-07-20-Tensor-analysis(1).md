@@ -58,7 +58,7 @@ $$f(\mathbf{x}) \equiv \sum\limits_{i_1,\ldots,i_m=1}^{n} b_{i_{1}\cdots i_{m}}x
 가 된다.
 $\mathscr{B}$는 $\mathscr{A}$의 **대칭화**(**symmetrization**)라고 하며 $\mathscr{B} = \mathrm{Sym}(\mathscr{A})$라고 한다.
 
-임의의 텐서 $\mathscr{A}$에 대해서 $\mathscr{B} =\mathrm{Sym}(\mathscr{A})$를 직접 구할 수 있다. 이 과정에서 실수의 성질에 의해서 유일성 또한 보일 수 있다.
+임의의 텐서 $\mathscr{A}$에 대해서 $\mathscr{B} =\mathrm{Sym}(\mathscr{A})$를 직접 구할 수 있다. 이 과정에서 실수의 성질에 의해서 유일성 또한 보장된다.
 
 $(i_1,\ldots,i_m)$에 대해서 가능한 모든 치환의 집합을 $P$라고 하자. $\forall (i_1,\ldots,i_m)\in P$에 대해서 $b_{i_{1}\cdots i_{m}}$를 다음과 같이 정의하자.
 
