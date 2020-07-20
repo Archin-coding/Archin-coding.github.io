@@ -92,7 +92,7 @@ $$B=\begin{bmatrix} 1 & 6 & 4 \\ 6 & 2 & 2 \\ 4 & 2 & 3 \end{bmatrix}$$
 3. $A, B, C, \ldots$ : matrices
 4. $\mathscr{A}, \mathscr{B}, \mathscr{C}, \ldots$ : tensors
 5. $\mathbf{0}$ : zero vector, $\mathbf{1}$ : all $1$ vector, $\mathbf{1}^{(j)}$ : $j$th unit vector
-6. $[n]:= \{1,\ldots,n\}$
+6. $[n]= \{1,\ldots,n\}$
 7. $\forall\mathbf{x}\in \mathbb{R}^n$, $\mathrm{supp}(\mathbf{x})=\{j\in [n]|x_j \neq 0\}$ : support of $\mathbf{x}$
 8. $|S|$: cardinality where $S$ : finite set
 9. $\mathscr{O}$ : zero tensor in $T_{m,n}$, $\mathscr{I}$ : all $1$ tensor in $T_{m,n}$
