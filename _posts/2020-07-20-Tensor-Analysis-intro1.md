@@ -32,4 +32,3 @@ Liqun Qi, Ziyan Lou의
 $$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$$
 
 Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **tensor**이다.
-
