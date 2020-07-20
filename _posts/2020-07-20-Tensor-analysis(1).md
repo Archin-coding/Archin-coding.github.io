@@ -45,10 +45,18 @@ Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **tensor**이다.
 
 다음 Example들은 대칭 텐서의 응용이다.
 
+직관적인 이해를 위해서 Example의 Example은 우리에게 익숙한 행렬을 들 것이다.
+
 > ### Example 1.1. Higher order derivatives of sufficiently differentiable multi-variable functions.
 > $f:\mathbb{R}^n \rightarrow \mathbb{R}$ 함수가 $m$차 미분에 대해서 연속이라고 가정하자. 임의의 $\mathbf{x}\in \mathbb{R}^n$에 대해서 $m$th order derivative $\nabla^{(m)}f(\mathbf{x})$는 $m$th order $n$-dimensional real symmetric tensor가 된다.
 
 미분은 선형 연산자이기 때문에 교환법칙이 성립한다. 따라서 $\nabla^{(m)}f(\mathbf{x})$의 원소는 임의의 permutation에 대해서 동일하고, $\nabla^{(m)}f(\mathbf{x})$는 symmertic tensor가 된다.
+
+행렬로 예를 들기 위해서 $f:\mathbb{R}^n \rightarrow \mathbb{R}$ 함수가 $2$차 미분에 대해서 연속이라고 가정하자.
+
+$$\nabla^{(2)}f(\mathbf{x})=\begin{bmatrix} \frac{\partial ^2 f}{\partial x_1 \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_1 \partial x_n}(\mathbf{x})\\ \vdots & \ddots & \vdots \\ \frac{\partial ^2 f}{\partial x_n \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_n \partial x_n}(\mathbf{x}) \end{bmatrix}$$
+
+$\nabla^{(2)}f(\mathbf{x})$가 대칭행렬이라는 것을 알 수 있다.
 
 > ### Example 1.2. Coefficient tensors of multi-variate homogeneous polynomial forms.
 > 텐서 $\mathscr{A}=(a_{i_{1}\cdots i_{m}}) \in T_{m,n}$에 대해서 다음 동차 다항식 
@@ -66,3 +74,25 @@ $$b_{i_{1}\cdots i_{m}} = \frac{\sum\limits_{(i_1,\ldots,i_m)\in P}a_{i_{1}\cdot
 
 $\mathscr{B}=(b_{i_{1}\cdots i_{m}})$는 대칭 텐서이다.
 
+다시 행렬로 symmetrization을 이해해보자.
+
+$$A=\begin{bmatrix} 1 & 3 & 5 \\ 9 & 2 & 1 \\ 3 & 3 & 3 \end{bmatrix}$$
+
+라 하자. $B=(b_{ij})=\mathrm{Sym}(A)$는 $b_{ij}=\frac{a_{ij}+a_{ji}}{2}$이고 따라서 $B=\mathrm{Sym}(A)$ 다음과 같다.
+
+$$B=\begin{bmatrix} 1 & 6 & 4 \\ 6 & 2 & 2 \\ 4 & 2 & 3 \end{bmatrix}$$
+
+### Notation
+앞으로 우리는 많은 요소들을 다룰 예정이다. 스칼라, 벡터, 행렬 그리고 텐서.
+
+표기의 통일성과 편의를 위해서 다음 Notation을 사용하자.
+
+1. $x,y,a,b,\ldots$ : scalars
+2. $\mathbf{x}, \mathbf{y}, \ldots$ : vectors
+3. $A, B, C, \ldots$ : matrices
+4. $\mathscr{A}, \mathscr{B}, \mathscr{C}, \ldots$ : tensors
+5. $\mathbf{0}$ : zero vector, $\mathbf{1}$ : all $1$ vector, $\mathbf{1}^{(j)}$ : $j$th unit vector
+6. $[n]\coloneqq\{1,\ldots,n\}$
+7. $\forall\mathbf{x}\in \mathbb{R}^n$, $\mathrm{supp}(\mathbf{x})=\{j\in [n]|x_j \neq 0\}$ : support of $\mathbf{x}$
+8. $|S|$: cardinality where $S$ : finite set
+9. $\mathscr{O}$ : zero tensor in $T_{m,n}$, $\mathscr{I}$ : all $1$ tensor in $T_{m,n}$
