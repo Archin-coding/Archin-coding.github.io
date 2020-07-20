@@ -52,8 +52,10 @@ Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **tensor**이다.
 
 > ### Example 1.2. Coefficient tensors of multi-variate homogeneous polynomial forms.
 > 텐서 $\mathscr{A}=(a_{i_{1}\cdots i_{m}}) \in T_{m,n}$에 대해서 다음 동차 다항식 
-$$f(\mathbf{x})=\sum\limits_{i_1,\ldots,i_m=1}^{n} a_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$을 만들 수 있다. 이 때 유일한 대칭 텐서 $\mathscr{B}=(b_{i_{1}\cdots i_{m}}) \in S_{m,n}$가 존재해서
-$$f(\mathbf{x}) \equiv \sum\limits_{i_1,\ldots,i_m=1}^{n} b_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$가 된다.
+$$f(\mathbf{x})=\sum\limits_{i_1,\ldots,i_m=1}^{n} a_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
+을 만들 수 있다. 이 때 유일한 대칭 텐서 $\mathscr{B}=(b_{i_{1}\cdots i_{m}}) \in S_{m,n}$가 존재해서
+$$f(\mathbf{x}) \equiv \sum\limits_{i_1,\ldots,i_m=1}^{n} b_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
+가 된다.
 $\mathscr{B}$는 $\mathscr{A}$의 **대칭화**(**symmetrization**)라고 하며 $\mathscr{B} = \mathrm{Sym}(\mathscr{A})$라고 한다.
 
 임의의 텐서 $\mathscr{A}$에 대해서 $\mathscr{B} =\mathrm{Sym}(\mathscr{A})$를 직접 구할 수 있다. 이 과정에서 실수의 성질에 의해서 유일성 또한 보일 수 있다.
