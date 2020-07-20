@@ -8,7 +8,7 @@ tags:
   - Tensor
 last_modified_at: 2020-07-20T11:30:00-35:00
 ---
-Liqun Qi, Ziyan Lou의 
+Liqun Qi, Ziyan Lou의
 **Tensor Analysis**-Spectral Theory and Special Tensors-
 에 대해서 공부를 해보려고 한다.
 
