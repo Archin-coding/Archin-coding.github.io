@@ -1,6 +1,7 @@
 ---
 title:  "Tensor Analysis"
 excerpt: "Tensor Ananlsis 소개"
+read_time: false
 toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
