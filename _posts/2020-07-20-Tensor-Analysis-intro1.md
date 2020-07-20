@@ -1,7 +1,7 @@
 ---
 title:  "Tensor Analysis-Introduction(1)"
 excerpt: "Tensor Ananlysis 소개"
-read_time: false
+use_math: true
 toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
