@@ -1,13 +1,16 @@
 ---
 title:  "Tensor Analysis"
 excerpt: "Tensor Ananlsis 소개"
-
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
 categories:
   - Tensor
 tags:
   - Tensor
 last_modified_at: 2020-07-20T11:30:00-35:00
 ---
+# Introduction
 Liqun Qi, Ziyan Lou의
 **Tensor Analysis**-Spectral Theory and Special Tensors-
 에 대해서 공부를 해보려고 한다.
