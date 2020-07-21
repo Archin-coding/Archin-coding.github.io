@@ -9,6 +9,8 @@ categories:
   - Linear Algebra
 tags:
   - Linear Algebra
+header:
+  teaser: /assets/images/linearalgebra.png
 last_modified_at: 2020-07-20T11:30:00-35:00
 ---
 
