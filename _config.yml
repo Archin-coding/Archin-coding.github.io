@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Archin"
-  avatar           : "/assets/images/og.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/og2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**수학**과 **코딩**을 잘하고 싶은 대학원생"
   location         : "Pusan, South Korea"
   email            :
@@ -116,7 +116,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/archin2/"
 
 # Site Footer
 footer:
