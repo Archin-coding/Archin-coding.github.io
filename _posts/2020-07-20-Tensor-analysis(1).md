@@ -9,6 +9,8 @@ categories:
   - Tensor
 tags:
   - Tensor
+header:
+  teaser: /assets/images/tensorimg.png
 last_modified_at: 2020-07-20T11:30:00-35:00
 ---
 
