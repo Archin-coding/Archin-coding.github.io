@@ -60,9 +60,9 @@ $\nabla^{(2)}f(\mathbf{x})$가 대칭행렬이라는 것을 알 수 있다.
 
 > ### Example 1.2. Coefficient tensors of multi-variate homogeneous polynomial forms.
 > 텐서 $\mathscr{A}=(a_{i_{1}\cdots i_{m}}) \in T_{m,n}$에 대해서 다음 동차 다항식 
-$$f(\mathbf{x})=\sum\limits_{i_1,\ldots,i_m=1}^{n} a_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
+>$$f(\mathbf{x})=\sum\limits_{i_1,\ldots,i_m=1}^{n} a_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
 을 만들 수 있다. 이 때 유일한 대칭 텐서 $\mathscr{B}=(b_{i_{1}\cdots i_{m}}) \in S_{m,n}$가 존재해서
-$$f(\mathbf{x}) \equiv \sum\limits_{i_1,\ldots,i_m=1}^{n} b_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
+>$$f(\mathbf{x}) \equiv \sum\limits_{i_1,\ldots,i_m=1}^{n} b_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
 가 된다.
 $\mathscr{B}$는 $\mathscr{A}$의 **대칭화**(**symmetrization**)라고 하며 $\mathscr{B} = \mathrm{Sym}(\mathscr{A})$라고 한다.
 
