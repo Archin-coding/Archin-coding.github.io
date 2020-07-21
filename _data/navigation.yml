@@ -5,6 +5,8 @@ main:
   - title: "Tensor"
     url: /categories/Tensor/
   - title: "About"
+    url: /categories/LinearAlgebra/
+  - title: "Linear Algebra"
     url: /about/
   - title: "Publications"
     url: "/publications/"
