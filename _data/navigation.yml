@@ -1,15 +1,15 @@
 # main links
 main:
   - title: "Category"
-    url: "/categories/"
+    url: /categories/
   - title: "Tensor"
-    url: "/categories/Tensor/"
+    url: /categories/Tensor/
   - title: "Linear Algebra"
-    url: "/categories/Linear-Algebra/"
+    url: /categories/Linear-Algebra/
   - title: "About"
-    url: "/about/"
+    url: /about/
   - title: "Publications"
-    url: "/publications/"
+    url: /publications/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
