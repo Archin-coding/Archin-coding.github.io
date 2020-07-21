@@ -4,9 +4,9 @@ main:
     url: "/categories/"
   - title: "Tensor"
     url: /categories/Tensor/
-  - title: "About"
-    url: /categories/Linear Algebra/
   - title: "Linear Algebra"
+    url: /categories/Linear Algebra/
+  - title: "About"
     url: /about/
   - title: "Publications"
     url: "/publications/"
