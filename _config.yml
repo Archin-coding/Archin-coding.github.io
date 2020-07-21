@@ -275,6 +275,8 @@ defaults:
     values:
       layout: single
       classes: wide
+      header : 
+        image: /assets/images/cover.jpg
       author_profile: true
       read_time: false
       use_math: true
@@ -289,6 +291,8 @@ defaults:
     values:
       layout: single
       classes: wide
+      header : 
+        image: /assets/images/cover.jpg
       author_profile: true
       read_time: false
       comments: false
