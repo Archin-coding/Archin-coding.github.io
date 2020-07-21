@@ -1,7 +1,7 @@
 ---
 title: "Layout: Header Image Overlay"
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/cover.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Call to action 1"
