@@ -7,7 +7,7 @@ categories:
 tags:
   - Blog
 header:
-  teaser: /assets/images/blog.jpg
+  teaser: /assets/images/blog.png
 last_modified_at: 2020-07-19T23:20:00-21:00
 ---
 
