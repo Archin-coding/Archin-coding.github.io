@@ -11,7 +11,7 @@ tags:
   - Linear Algebra
 header:
   teaser: /assets/images/linearalgebra.png
-last_modified_at: 2020-07-20T11:30:00-35:00
+last_modified_at: 2020-07-21T11:30:00-35:00
 ---
 
 Gilbert Strang 교수님의 "Linear Algebra and Learning from Data"에 대해서 공부하고 정리하여 포스팅 해보려고 한다.
