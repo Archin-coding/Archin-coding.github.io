@@ -78,7 +78,7 @@ $\mathscr{B}=(b_{i_{1}\cdots i_{m}})$는 대칭 텐서이다.
 
 $$A=\begin{bmatrix} 1 & 3 & 5 \\ 9 & 2 & 1 \\ 3 & 3 & 3 \end{bmatrix}$$
 
-라 하자. $B=(b_{ij})=\mathrm{Sym}(A)$는 $b_{ij}=\frac{a_{ij}+a_{ji}}{2}$이고 따라서 $B=\mathrm{Sym}(A)$ 다음과 같다.
+라 하자. $B=(b_{ij})=\mathrm{Sym}(A)$의 각 원소는 $b_{ij}=\frac{a_{ij}+a_{ji}}{2}$이고 따라서 $B=\mathrm{Sym}(A)$ 다음과 같다.
 
 $$B=\begin{bmatrix} 1 & 6 & 4 \\ 6 & 2 & 2 \\ 4 & 2 & 3 \end{bmatrix}$$
 
