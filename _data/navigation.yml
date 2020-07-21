@@ -1,9 +1,13 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
+  - title: "Category"
+    url: "/categories/"
   - title: "Tensor"
     url: /categories/Tensor/
+  - title: "About"
+    url: /about/
+  - title: "Publications"
+    url: "/publications/"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
