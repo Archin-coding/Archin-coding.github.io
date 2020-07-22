@@ -45,6 +45,6 @@ $$A=\begin{bmatrix}1&2\\3&6\end{bmatrix}=\mathbf{uv}^T$$
 3. $\mathbf{N}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 2 \\ -1 \end{bmatrix}$을 지나는 직선
 4. $\mathbf{N}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 3 \\ -1 \end{bmatrix}$을 지나는 직선
 
-| ![](../assets/images/linearalgebra/20200722_3.png) | ![](../assets/images/linearalgebra/20200722_4.png)|
+| ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_3.png) | ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_4.png)|
 |:--:|:--:|
 | $\mathbf{C}(A^T)$와 $\mathbf{N}(A)$는 직교한다. | $\mathbf{C}(A)$와 $\mathbf{N}(A^T)$는 직교한다. |
