@@ -8,5 +8,5 @@ tags: [publication]
 ---
 
 ## Journal
-- 2018
+- 2019
     - "On Newton's Method for Solving a System of Nonlinear Matrix Equations.", East Asian mathematical journal, 35.3 (2019): 341-349.
