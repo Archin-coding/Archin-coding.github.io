@@ -189,9 +189,9 @@ $AX = X\Lambda$ $X^{-1}$을 곱해주면 행렬의 **대각화**(**Diagonalizati
 
 이것은 computational 관점에서는 치명적인 단점이기 때문에 수학자들은 다음과 같은 행렬 분해를 고안해냈다.
 
-#### Schur decomposition $A = QTQ^*$
+#### Schur Decomposition $A = QTQ^*$
 
-슈어 분해(Schur decomposition)는 행렬의 대각화와 형태가 비슷해보이지만 $Q$가 **유니터리 행렬**(**Unitart matrix**$Q^{-1}=Q^*$)이고 $T$가 대각 행렬이 아니라 상삼각행렬이라는 점이 다르다.
+슈어 분해(Schur decomposition)는 행렬의 대각화와 형태가 비슷해보이지만 $Q$가 **유니터리 행렬**(**Unitary matrix**$Q^{-1}=Q^*$)이고 $T$가 대각 행렬이 아니라 상삼각행렬이라는 점이 다르다.
 
 식에서부터 알 수 있듯 $Q$가 유니터리 행렬이기 때문에 $Q^{-1}$을 구할 필요가 없다는 장점이 있지만 $T$가 행렬의 대각화의 $\Lambda$와는 달리 대각행렬이 아니라서 $T$를 구해야한다는 단점이 있다.
 
