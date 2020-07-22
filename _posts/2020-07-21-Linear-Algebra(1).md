@@ -17,8 +17,8 @@ last_modified_at: 2020-07-21T11:30:00-35:00
 Gilbert Strang 교수님의 "Linear Algebra and Learning from Data"에 대해서 공부하고 정리하여 포스팅 해보려고 한다.
 
 필요하다면 [MIT Linear Algebra 강의](https://www.youtube.com/playlist?list=PLUl4u3cNGP61iQEFiWLE21EJCxwmWvvek)를 참고할 예정이다.
-
-# 1.1 Multiplication $Ax$ Using Columns of $A$
+# Introduction
+## 1.1 Multiplication $Ax$ Using Columns of $A$
 $$A\mathbf{x} = \begin{bmatrix} 2 & 3 \\ 2 & 4 \\ 3 & 7 \end{bmatrix}\begin{bmatrix} x_1\\x_2\end{bmatrix}$$
 
 이 간단한 행렬 방정식을 보는 방식은 $2$가지가 있다. **행**(**row**)으로 보는 것과 **열**(**column**)로 보는 것.
@@ -35,7 +35,21 @@ $$A\mathbf{x} = \begin{bmatrix} 2 & 3 \\ 2 & 4 \\ 3 & 7 \end{bmatrix}\begin{bmat
 
 $\mathbf{b}$가 $A$의 **열공간**(**column space**)안에 있다면, $A\mathbf{x}=\mathbf{b}$는 해를 가진다.
 
-# 1.2 Matrix-Matrix Multiplication $AB$
+### Independent Columns and Rank of $A$
+**일차 독립**(**independence**)을 기억하며 $A$를 분해해보자.
+
+방법은 다음과 같다.
+> $A$의 $1$열이 $\mathbf{0}$이 아니라면 $C$에 추가한다.
+$A$의 $2$열이 $1$열의 배수가 아니라면, $C$에 추가한다.
+$A$의 $3$열이 $1$열과 $2$열의 일차결합이 아니라면, $C$에 추가한다. (계속)
+
+이 과정을 반복하면 $C$는 $r(\leq n)$개의 열을 가지게 된다.
+
+간단한 예를 들어보자.
+
+$A = \begin{bmatrix} 1 & 3 & 8\\ 1& 2 & 6 \\ 0 & 1 & 2 \end{bmatrix}$라면, $C =  \begin{bmatrix} 1 & 3\\ 1& 2 \\ 0 & 1 \end{bmatrix}$이고, $A = \begin{bmatrix} 1 & 3 & 8\\ 1& 2 & 6 \\ 0 & 1 & 2 \end{bmatrix} = \begin{bmatrix} 1 & 3\\ 1& 2 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 &2\\ 0 & 1 & 2 \end{bmatrix} = CR$이 된다.
+
+## 1.2 Matrix-Matrix Multiplication $AB$
 이 절에서는 **행렬곱**(**matrix multiplicatoin**)을 앞에서 했던 $A\mathbf{x}$와 마찬가지로 **행** 관점과 **열** 관점으로 접근한다.
 
 먼저 우리에게 익숙한 행 관점에서 행렬곱 $C=AB$를 계산해보자.
@@ -74,5 +88,19 @@ AB =
   -& \mathbf{b}^{*}_{1}&-\\
   -& \vdots &- \\
   -& \mathbf{b}^{*}_{n}&-
-\end{bmatrix}
+\end{bmatrix}=
+\sum\limits_{i=1}^{n}\mathbf{a}_{i}\mathbf{b}^{*}_{i}
 $$
+
+$(m\times n)$행렬 $\times$ $(n\times p)$행렬의 계산수는 둘다 $mnp$번으로 같다.
+
+$$
+\begin{cases}
+\text{행 관점 : } & mp번의\, 내적,& 각각\, n 번의\, 곱셈 &= mnp\\
+\text{열 관점 : } & n번의\, 외적,& 각각\, mp 번의\, 곱셈 &= mnp\\
+\end{cases}
+$$
+
+이 책에서는 열 관점의 곱셈을 채택할 것이다.
+
+### Insight from Column times Row
