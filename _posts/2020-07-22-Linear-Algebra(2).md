@@ -61,7 +61,7 @@ $$\mathrm{dim}(\mathbf{C}(A))+\mathrm{dim}(\mathbf{N}(A^T))=m$$
 
 이것을 선형대수학의 **The Big Picture**라고 한다.
 
-| ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_5.png) |
+ ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_5.png) 
 
 
 #### The Ranks of $AB$ and $A+B$
