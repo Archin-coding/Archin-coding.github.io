@@ -36,7 +36,7 @@ $$A\mathbf{x} = \begin{bmatrix} 2 & 3 \\ 2 & 4 \\ 3 & 7 \end{bmatrix}\begin{bmat
 $\mathbf{b}$가 $A$의 **열공간**(**column space**)안에 있다면, $A\mathbf{x}=\mathbf{b}$는 해를 가진다.
 
 ### Independent Columns and Rank of $A$
-**일차 독립**(**independence**)을 기억하며 $A$를 분해해보자.
+**일차 독립**(**independence**)의 개념을 기억하며 $A$를 분해해보자.
 
 방법은 다음과 같다.
 > $A$의 $1$열이 $\mathbf{0}$이 아니라면 $C$에 추가한다.  
