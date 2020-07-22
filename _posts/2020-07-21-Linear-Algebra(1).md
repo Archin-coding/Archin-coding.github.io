@@ -145,7 +145,7 @@ $$
 \Lambda=
 \begin{bmatrix}
   \lambda_1 & \cdots & 0 \\
-  \vdots & \ddots & \cdots \\
+  \vdots & \ddots & \vdots \\
   0 & \cdots & \lambda_n
 \end{bmatrix},
 X = 
@@ -156,4 +156,4 @@ X =
 \end{bmatrix}
 $$
 
-
+$A$와 $X$를 곱해보자
