@@ -156,4 +156,29 @@ X =
 \end{bmatrix}
 $$
 
-$A$와 $X$를 곱해보자
+$A$와 $X$를 곱해보자.
+
+$$
+AX=A
+\begin{bmatrix}
+  \vert &  & \vert \\
+  \mathbf{x}_1 & \cdots & \mathbf{x}_n \\
+  \vert &  & \vert
+\end{bmatrix}=
+\begin{bmatrix}
+  \vert &  & \vert \\
+  \lambda_1\mathbf{x}_1 & \cdots & \lambda_n\mathbf{x}_n \\
+  \vert &  & \vert
+\end{bmatrix}=
+\begin{bmatrix}
+  \vert &  & \vert \\
+  \mathbf{x}_1 & \cdots & \mathbf{x}_n \\
+  \vert &  & \vert
+\end{bmatrix}
+\begin{bmatrix}
+  \lambda_1 & \cdots & 0 \\
+  \vdots & \ddots & \vdots \\
+  0 & \cdots & \lambda_n
+\end{bmatrix}=
+X\Lambda
+$$
