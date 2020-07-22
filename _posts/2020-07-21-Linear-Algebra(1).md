@@ -98,7 +98,7 @@ AB =
   \end{bmatrix}
 \begin{bmatrix}
   -& \mathbf{b}^{*}_{1}&-\\
-  -& \vdots &- \\
+  & \vdots & \\
   -& \mathbf{b}^{*}_{n}&-
 \end{bmatrix}=
 \sum\limits_{i=1}^{n}\mathbf{a}_{i}\mathbf{b}^{*}_{i}
