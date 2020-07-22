@@ -54,7 +54,7 @@ a_{21} & a_{22} & a_{23} \\
 
 열 관점의 행렬곱을 계산하기 전에, 먼저 **외적**(**outer product**)에 대해서 짚고 넘어가자.
 
-열벡터 $u$와 행벡터 $v^T$에 대해서, $uv^T$는 행렬이 된다.
+열벡터 $\mathbf{u}$와 행벡터 $\mathbf{v}^T$에 대해서, $\mathbf{uv}^T$는 행렬이 된다.
 
 $$uv^T = 
 \begin{bmatrix} 2\\ 2\\ 1 \end{bmatrix}
@@ -66,13 +66,13 @@ $$uv^T =
 $$
 AB = 
 \begin{bmatrix}
-\vert & & \vert\\
-\mathbf{a}_1 & \cdots & \mathbf{a}_n\\
-\vert & & \vert
-\end{bmatrix}
+  \vert & & \vert\\
+  \mathbf{a}_1 & \cdots & \mathbf{a}_n\\
+  \vert & & \vert
+  \end{bmatrix}
 \begin{bmatrix}
-\rule[.5ex]{2.5ex}{0.1pt}  & \mathbf{b}^{*}_{1}& \rule[.5ex]{2.5ex}{0.1pt}\\
- & \vdots & \\
-\rule[.5ex]{2.5ex}{0.1pt} & \mathbf{b}^{*}_{n}& \rule[.5ex]{2.5ex}{0.1pt}
+  -& \mathbf{b}^{*}_{1}&-\\
+  -& \vdots &- \\
+  -& \mathbf{b}^{*}_{n}&-
 \end{bmatrix}
 $$
