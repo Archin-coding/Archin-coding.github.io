@@ -182,3 +182,29 @@ AX=A
 \end{bmatrix}=
 X\Lambda
 $$
+
+$AX = X\Lambda$ $X^{-1}$을 곱해주면 행렬의 **대각화**(**Diagonalization**)을 유도할 수 있다.
+
+행렬의 대각화는 유용한 도구이지만 식에서부터 알 수 있듯, $X$가 invertible해야 한다는 제약조건이 있고, 실제로 분해할 때에도 $X$의 역행렬을 구해야 한다는 단점이 있다.
+
+이것은 computational 관점에서는 치명적인 단점이기 때문에 수학자들은 다음과 같은 행렬 분해를 고안해냈다.
+
+#### Schur decomposition $A = QTQ^*$
+
+슈어 분해(Schur decomposition)는 행렬의 대각화와 형태가 비슷해보이지만 $Q$가 **유니터리 행렬**(**Unitart matrix**$Q^{-1}=Q^*$)이고 $T$가 대각 행렬이 아니라 상삼각행렬이라는 점이 다르다.
+
+식에서부터 알 수 있듯 $Q$가 유니터리 행렬이기 때문에 $Q^{-1}$을 구할 필요가 없다는 장점이 있지만 $T$가 행렬의 대각화의 $\Lambda$와는 달리 대각행렬이 아니라서 $T$를 구해야한다는 단점이 있다.
+
+이 $T$가 $\Lambda$가 되기 위해서는 $A$가 **대칭행렬**(**Symmetric matrix**)여야 한다.
+
+#### Singular Value Decomposition $A = U\Sigma V^T$
+
+지금까지 소개했던 행렬의 분해는 모두 **정사각행렬**(**Square matrix**)에만 적용할 수 있었다. 하지만 분해하고자 하는 행렬이 $n\times n$ 행렬이 아니라 $m\times n$ 행렬이라면 어떨까?
+
+이러한 행렬을 분해하고자 고안된 것이 바로 **특이값분해**(**Singular Value Decomposition**(**SVD**))이다.
+
+SVD의 장점은 **모든 행렬**에 대해서 사용할 수 있다는 것이다.
+
+$$A = U\Sigma V^T$$
+
+$\Sigma$는 대각행렬로 각 성분에 $A$의 특이값 $\sigma_1,\ldots,\sigma_r$이 온다. 그리고 $U$와 $V$에는 정규직교 특이벡터(Ordhonomal singular vector)가 온다.
