@@ -207,4 +207,4 @@ SVD의 장점은 **모든 행렬**에 대해서 사용할 수 있다는 것이�
 
 $$A = U\Sigma V^T$$
 
-$\Sigma$는 대각행렬로 각 성분에 $A$의 특이값 $\sigma_1,\ldots,\sigma_r$이 온다. 그리고 $U$와 $V$에는 정규직교 특이벡터(Ordhonomal singular vector)가 온다.
+$\Sigma$는 대각행렬로 각 성분에 $A$의 특이값 $\sigma_1,\ldots,\sigma_r$이 온다. 그리고 $U$와 $V$에는 정규직교 특이벡터(Orthonomal singular vector)가 온다.
