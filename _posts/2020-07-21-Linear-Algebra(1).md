@@ -11,7 +11,7 @@ tags:
   - Linear Algebra
 header:
   teaser: /assets/images/linearalgebra.png
-last_modified_at: 2020-07-22T11:30:00-35:00
+last_modified_at: 2020-07-21T11:30:00-35:00
 ---
 
 Gilbert Strang 교수님의 "Linear Algebra and Learning from Data"에 대해서 공부하고 정리하여 포스팅 해보려고 한다.
@@ -42,4 +42,37 @@ $\mathbf{b}$가 $A$의 **열공간**(**column space**)안에 있다면, $A\mathb
 
 $$\begin{bmatrix} \cdot & \cdot & \cdot \\
 a_{21} & a_{22} & a_{23} \\
+\cdot & \cdot & \cdot \end{bmatrix}
+\begin{bmatrix} \cdot & \cdot & b_{13} \\
+\cdot & \cdot & b_{23} \\
+\cdot & \cdot & b_{33} \end{bmatrix}=
+\begin{bmatrix} \cdot & \cdot & \cdot \\
+\cdot & \cdot & c_{23} \\
 \cdot & \cdot & \cdot \end{bmatrix}$$
+
+위 식은 행 관점의 행렬곱은 $c_{23}=(A의\,2행)\cdot (B의\,3행)$ 방식으로 계산한다는 것을 보여준다. **내적**(**inner product**)을 사용하는 것이다.
+
+열 관점의 행렬곱을 계산하기 전에, 먼저 **외적**(**outer product**)에 대해서 짚고 넘어가자.
+
+열벡터 $u$와 행벡터 $v^T$에 대해서, $uv^T$는 행렬이 된다.
+
+$$uv^T = 
+\begin{bmatrix} 2\\ 2\\ 1 \end{bmatrix}
+\begin{bmatrix} 3&4&6 \end{bmatrix}=
+\begin{bmatrix} 6 & 8 & 12\\ 6 & 8 & 12\\ 3 & 4 & 6 \end{bmatrix}$$
+
+이제 열 관점의 행렬 곱 $AB$를 계산해보자.
+
+$$
+AB = 
+\begin{bmatrix}
+\vert & & \vert\\
+\mathbf{a}_1 & \cdots & \mathbf{a}_n\\
+\vert & & \vert
+\end{bmatrix}
+\begin{bmatrix}
+\rule[.5ex]{2.5ex}{0.1pt}  & \mathbf{b}^{*}_{1}& \rule[.5ex]{2.5ex}{0.1pt}\\
+ & \vdots & \\
+\rule[.5ex]{2.5ex}{0.1pt} & \mathbf{b}^{*}_{n}& \rule[.5ex]{2.5ex}{0.1pt}
+\end{bmatrix}
+$$
