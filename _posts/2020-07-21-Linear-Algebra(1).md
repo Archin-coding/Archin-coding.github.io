@@ -116,3 +116,44 @@ $$
 이 책에서는 열 관점의 곱셈을 채택할 것이다.
 
 ### Insight from Column times Row
+
+위에서 행렬 $A$를 $A=CR$로 분해하는 방법에 대해서 소개했었다.
+
+이제 행렬 분해의 역사에 대해서 알아보자.
+
+#### LU Factorization $A = LU$
+
+행렬 방정식 $A\mathbf{x}=\mathbf{b}$에서 가우스 소거법을 이용하여 $A=LU$로 분해하여 방정식을 푼다.
+
+여기서 $L$은 대각성분이 모두 $1$인 **하삼각행렬**(**lower triangular matrix**)이고, $U$는 **상삼각행렬**(**upper triangular matrix**)이다.
+
+$$A\mathbf{x} = \mathbf{b} \rightarrow (A = LU) \rightarrow LU\mathbf{x} = \mathbf{b} \rightarrow (\mathbf{y}=U\mathbf{x}) \rightarrow L\mathbf{y} = \mathbf{b}$$
+
+#### QR Factorization $A=QR$
+
+$A$의 열들을 $1$열부터 그람-슈미트(Gram-Schmidt) 정규직교화를 거쳐서 얻은 직교행렬 $Q$와 상삼각행렬 $R$의 곱인 $A=QR$로 분해할 수 있다.
+
+#### Digonalization $A=X\Lambda X^{-1}$
+
+행렬의 분해와 뗄래야 뗄 수 없는게 행렬의 고윳값과 특잇값이다.
+
+$$A\mathbf{x} = \lambda \mathbf{x}$$
+
+행렬의 고유값들 $\lambda_1,\ldots,\lambda_n$과 $\mathbf{x}_1,\ldots,\mathbf{x}_n$에 대해서 $\Lambda$와 $X$를 다음과 같이 정의한다.
+
+$$
+\Lambda=
+\begin{bmatrix}
+  \lambda_1 & \cdots & 0 \\
+  \vdots & \ddots & \cdots \\
+  0 & \cdots & \lambda_n
+\end{bmatrix},
+X = 
+\begin{bmatrix}
+  \vert &  & \vert \\
+  \mathbf{x}_1 & \cdots & \mathbf{x}_n \\
+  \vert &  & \vert
+\end{bmatrix}
+$$
+
+
