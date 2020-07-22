@@ -45,6 +45,29 @@ $$A=\begin{bmatrix}1&2\\3&6\end{bmatrix}=\mathbf{uv}^T$$
 3. $\mathbf{N}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 2 \\ -1 \end{bmatrix}$을 지나는 직선
 4. $\mathbf{N}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 3 \\ -1 \end{bmatrix}$을 지나는 직선
 
+우리는 이 벡터들중 두 쌍이 직교한다는 것을 쉽게 알 수 있다.
+
 | ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_3.png) | ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_4.png)|
 |:--:|:--:|
 | $\mathbf{C}(A^T)$와 $\mathbf{N}(A)$는 직교한다. | $\mathbf{C}(A)$와 $\mathbf{N}(A^T)$는 직교한다. |
+
+행렬의 크기가 커져도(차원이 높아져도) 여전히 이 관계가 성립할 것인가? *답은 그렇다!*
+
+심지어 $A$가 $m\times n$ 행렬일 때, 각 부분공간의 차원은 다음과 같은 관계를 가진다.
+
+$$\mathrm{dim}(\mathbf{C}(A^T))+\mathrm{dim}(\mathbf{N}(A))=n$$
+
+$$\mathrm{dim}(\mathbf{C}(A))+\mathrm{dim}(\mathbf{N}(A^T))=m$$
+
+이것을 선형대수학의 **The Big Picture**라고 한다.
+
+#### The Ranks of $AB$ and $A+B$
+선형대수학 시간에서 우리는 $\det (AB)=\det (A) \det(B)$는 성립하지만 $\det (A+B)=\det (A)+\det(B)$는 아니라는 것을 배웠을 것이다. 그렇다면 행렬의 랭크는 어떨까?
+
+행렬들 $A,B, AB, A+B$의 랭크는 다음 관계를 가진다.
+
+1. Rank of $AB\leq$ Rank of $A$, Rank of $AB\leq$ Rank of $B$
+2. Rank of $A+B\leq$ Rank of $A+$ Rank of $B$
+3. Rank of $AA^T=$ Rank of $A^TA=$ Rank of $A^T$
+4. $A:m\times r$, $B:r\times n$ 행렬들이 둘 다 랭크가 $r$이면 $AB$의 랭크도 $r$이다.
+
