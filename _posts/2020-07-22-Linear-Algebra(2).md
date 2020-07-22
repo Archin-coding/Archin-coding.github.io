@@ -61,6 +61,9 @@ $$\mathrm{dim}(\mathbf{C}(A))+\mathrm{dim}(\mathbf{N}(A^T))=m$$
 
 이것을 선형대수학의 **The Big Picture**라고 한다.
 
+| ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_5.png) |
+
+
 #### The Ranks of $AB$ and $A+B$
 선형대수학 시간에서 우리는 $\det (AB)=\det (A) \det(B)$는 성립하지만 $\det (A+B)=\det (A)+\det(B)$는 아니라는 것을 배웠을 것이다. 그렇다면 행렬의 랭크는 어떨까?
 
