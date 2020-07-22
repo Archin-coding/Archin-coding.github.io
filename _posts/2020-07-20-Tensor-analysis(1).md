@@ -46,7 +46,7 @@ Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **tensor**이다.
 
 다음 Example들은 대칭 텐서의 응용이다.
 
-직관적인 이해를 위해서 Example의 Example은 우리에게 익숙한 행렬을 들 것이다.
+직관적인 이해를 위해서 Example의 Example로써 우리에게 익숙한 행렬을 들 것이다.
 
 > ### Example 1.1. Higher order derivatives of sufficiently differentiable multi-variable functions.
 > $f:\mathbb{R}^n \rightarrow \mathbb{R}$ 함수가 $m$차 미분에 대해서 연속이라고 가정하자. 임의의 $\mathbf{x}\in \mathbb{R}^n$에 대해서 $m$th order derivative $\nabla^{(m)}f(\mathbf{x})$는 $m$th order $n$-dimensional real symmetric tensor가 된다.
