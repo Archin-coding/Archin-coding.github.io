@@ -47,7 +47,19 @@ $\mathbf{b}$가 $A$의 **열공간**(**column space**)안에 있다면, $A\mathb
 
 간단한 예를 들어보자.
 
-$A = \begin{bmatrix} 1 & 3 & 8 \\ 1& 2 & 6 \\ 0 & 1 & 2 \end{bmatrix}$ 라면, $C =  \begin{bmatrix} 1 & 3 \\ 1 & 2 \\ 0 & 1 \end{bmatrix}$이고, $A = \begin{bmatrix} 1 & 3 & 8 \\ 1& 2 & 6 \\ 0 & 1 & 2 \end{bmatrix} = \begin{bmatrix} 1 & 3 \\ 1 & 2 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 & 2 \\ 0 & 1 & 2 \end{bmatrix} = CR$이 된다.
+$$A = \begin{bmatrix}
+  1 & 3 & 8 \\
+  1 & 2 & 6 \\
+  0 & 1 & 2 
+\end{bmatrix}$$
+
+에 대해서 , 
+
+$$C =  \begin{bmatrix} 1 & 3 \\ 1 & 2 \\ 0 & 1 \end{bmatrix}$$
+
+가 된다. 따라서 $A$를 분해하면 다음과 같다.
+
+$$A = \begin{bmatrix} 1 & 3 & 8 \\ 1& 2 & 6 \\ 0 & 1 & 2 \end{bmatrix} = \begin{bmatrix} 1 & 3 \\ 1 & 2 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 & 2 \\ 0 & 1 & 2 \end{bmatrix} = CR$$
 
 ## 1.2 Matrix-Matrix Multiplication $AB$
 이 절에서는 **행렬곱**(**matrix multiplicatoin**)을 앞에서 했던 $A\mathbf{x}$와 마찬가지로 **행** 관점과 **열** 관점으로 접근한다.
