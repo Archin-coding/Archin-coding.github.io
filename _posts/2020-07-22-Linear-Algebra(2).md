@@ -25,13 +25,13 @@ last_modified_at: 2020-07-22T11:30:00-35:00
 
 이 절에서는 Starng 교수님이 계속 강조하는 선형대수학의 $4$가지 부분공간에 대해서 다루고 있다. 
 
-1. **column space** $\mathbf{C}(A)$
+1. **열공간**(**column space**) $\mathbf{C}(A)$
 $A$의 열의 모든 일차 결합
-2. **row space** $\mathbf{C}(A^T)$
+2. **행공간**(**row space**) $\mathbf{C}(A^T)$
 $A^T$의 열의 모든 일차 결합
-3. **nullspace** $\mathbf{N}(A)$
+3. **영공간**(**nullspace**) $\mathbf{N}(A)$
 $A\mathbf{x}=0$의 모든 해 $\mathbf{x}$
-4. **left nullspace** $\mathbf{N}(A^T)$
+4. **좌영공간**(**left nullspace**) $\mathbf{N}(A^T)$
 $A^T\mathbf{y}=0$의 모든 해 $\mathbf{y}$
 
 간단한 Example을 통해서 이 부분공간들의 concept과 이 공간들이 왜 중요한지에 대해서 이해해보자.
@@ -40,11 +40,11 @@ $A^T\mathbf{y}=0$의 모든 해 $\mathbf{y}$
 $$A=\begin{bmatrix}1&2\\3&6\end{bmatrix}=\mathbf{uv}^T$$
 
 모든 부분공간들은 $\mathbb{R}^2$의 부분공간이다.
-1. $\mathbf{C}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix}1\\3\end{bmatrix}$을 지나는 직선
-2. $\mathbf{C}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix}1\\2\end{bmatrix}$을 지나는 직선
-3. $\mathbf{N}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix}2\\-1\end{bmatrix}$을 지나는 직선
-4. $\mathbf{N}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix}3\\-1\end{bmatrix}$을 지나는 직선
+1. $\mathbf{C}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 1 \\ 3 \end{bmatrix}$을 지나는 직선
+2. $\mathbf{C}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 1 \\ 2 \end{bmatrix}$을 지나는 직선
+3. $\mathbf{N}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 2 \\ -1 \end{bmatrix}$을 지나는 직선
+4. $\mathbf{N}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 3 \\ -1 \end{bmatrix}$을 지나는 직선
 
 | ![](../assets/images/linearalgebra/20200722_3.png) | ![](../assets/images/linearalgebra/20200722_4.png)|
 |:--:|:--:|
-|  |  |
+| $\mathbf{C}(A^T)$와 $\mathbf{N}(A)$는 직교한다. | $\mathbf{C}(A)$와 $\mathbf{N}(A^T)$는 직교한다. |
