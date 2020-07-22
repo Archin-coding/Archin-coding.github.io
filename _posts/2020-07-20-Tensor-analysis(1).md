@@ -24,15 +24,15 @@ Liqun Qi, Ziyan Lou의
 # 1. Introduction
 ## 1.1. Tensors (Hypermatrices)
 
-일반적으로 **tensor** $\mathscr{A}=(a_{i_{1}\cdots i_{m}})$는 $a_{i_{1}\cdots i_{m}}\in \mathbf{F}:\textrm{field}$ where $i_{j}=1,\ldots,n_{j},\textrm{ for }j=1,\ldots,m$인 multi-array이다.
+일반적으로 **텐서**(**tensor**) $\mathscr{A}=(a_{i_{1}\cdots i_{m}})$는 $a_{i_{1}\cdots i_{m}}\in \mathbf{F}:\textrm{field}$ where $i_{j}=1,\ldots,n_{j},\textrm{ for }j=1,\ldots,m$인 multi-array이다.
 
 우리가 잘 아는 matrix로 예로 들어보자.
 
 $$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$$
 
-Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **tensor**이다.
+Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **텐서**이다.
 
-여기서 $m$은 **tensor**의 **위수**(**order**)이고, $(n_1,\ldots,n_m)$은 **tensor**의 **차원**(**dimension**)이다.
+여기서 $m$은 **텐서**의 **위수**(**order**)이고, $(n_1,\ldots,n_m)$은 **텐서**의 **차원**(**dimension**)이다.
 
 행렬 $A$의 크기가 $2\times 3=6$인 것 처럼, tensor $\mathscr{A}$의 **크기**(**size**)는 $n_1\times \cdots \times n_m$이다.
 
@@ -57,7 +57,7 @@ Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **tensor**이다.
 
 $$\nabla^{(2)}f(\mathbf{x})=\begin{bmatrix} \frac{\partial ^2 f}{\partial x_1 \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_1 \partial x_n}(\mathbf{x})\\ \vdots & \ddots & \vdots \\ \frac{\partial ^2 f}{\partial x_n \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_n \partial x_n}(\mathbf{x}) \end{bmatrix}$$
 
-$\nabla^{(2)}f(\mathbf{x})$가 대칭행렬이라는 것을 알 수 있다.
+$\nabla^{(2)}f(\mathbf{x})$가 대칭 행렬이라는 것을 알 수 있다.
 
 > ### Example 1.2. Coefficient tensors of multi-variate homogeneous polynomial forms.
 > 텐서 $\mathscr{A}=(a_{i_{1}\cdots i_{m}}) \in T_{m,n}$에 대해서 다음 동차 다항식 
@@ -75,7 +75,7 @@ $$b_{i_{1}\cdots i_{m}} = \frac{\sum\limits_{(i_1,\ldots,i_m)\in P}a_{i_{1}\cdot
 
 $\mathscr{B}=(b_{i_{1}\cdots i_{m}})$는 대칭 텐서이다.
 
-다시 행렬로 symmetrization을 이해해보자.
+다시 행렬로 대칭화를 이해해보자.
 
 $$A=\begin{bmatrix} 1 & 3 & 5 \\ 9 & 2 & 1 \\ 3 & 3 & 3 \end{bmatrix}$$
 
