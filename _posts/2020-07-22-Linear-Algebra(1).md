@@ -35,3 +35,11 @@ $$A\mathbf{x} = \begin{bmatrix} 2 & 3 \\ 2 & 4 \\ 3 & 7 \end{bmatrix}\begin{bmat
 
 $\mathbf{b}$가 $A$의 **열공간**(**column space**)안에 있다면, $A\mathbf{x}=\mathbf{b}$는 해를 가진다.
 
+# 1.2 Matrix-Matrix Multiplication $AB$
+이 절에서는 **행렬곱**(**matrix multiplicatoin**)을 앞에서 했던 $A\mathbf{x}$와 마찬가지로 **행** 관점과 **열** 관점으로 접근한다.
+
+먼저 우리에게 익숙한 행 관점에서 행렬곱 $C=AB$를 계산해보자.
+
+$$\begin{bmatrix} \cdot & \cdot & \cdot \\
+a_{21} & a_{22} & a_{23} \\
+\cdot & \cdot & \cdot \end{bmatrix}$$
