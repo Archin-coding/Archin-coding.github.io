@@ -26,7 +26,7 @@ $\forall \mathbf{v}_i,\mathbf{v}_j\in {\rm Basis}, \mathbf{v}_i^T\mathbf{v}_j=0$
 ### 3. Subspaces $R$과 $N$이 orthogonal
 $\forall \mathbf{x}\in R,\, \forall \mathbf{y}\in N,\, \mathbf{x}^T\mathbf{y}=0$
 
-2의 *orthonormal basis*의 **일부**를 열로 가지는 행렬$Q$을 생각해보자.
+2의 *orthonormal basis*의 **일부**를 열로 가지는 행렬$Q$를 생각해보자.
 ### 4. $Q^TQ=I$
 $\\| Q\mathbf{x} \\| = \\| \mathbf{x} \\|$가 된다.
 $(\because (Q\mathbf{x})^T(Q\mathbf{x})=\mathbf{x}^T Q^T Q \mathbf{x}=\mathbf{x}^T\mathbf{x})$
@@ -36,5 +36,29 @@ $(\because (Q\mathbf{x})^T(Q\mathbf{x})=\mathbf{x}^T Q^T Q \mathbf{x}=\mathbf{x}
 $Q^TQ=QQ^T=I$
 $(\because (Q^TQ)^T=QQ^T=I \Rightarrow Q^T=Q^{-1})$
 
-orthogonal objects들의 Example을 몇 개 살펴보자.
+orthogonal objects의 Example을 몇 개 살펴보자.
 
+### Examples
+#### Example of Orthogonal basis
+**아다마르 행렬**(**Hadamard matrices**)
+아다마르 행렬은 모든 원소가 $1,-1$이고, 행벡터와 열벡터들이 각각 orthogoanl한 행렬이다. 예시를 하나 들어보자.
+$$H_2=
+\begin{bmatrix}
+    1 & 1 \\ 1 & -1
+\end{bmatrix}
+$$
+$H_2$의 모든 행과 열은 각각 $\mathbb{R}^2$위에서 orthogonal이다. $H_2$를 만들었다면 $H_4$는 더 쉽게 만들 수 있다.
+$$H_4=
+\begin{bmatrix}
+    H_2 & H_2 \\ H_2 & -H_2
+\end{bmatrix}
+$$
+
+$n\times n$크기의 아다마르 행렬이 존재할 필요충분조건을 찾는 문제는 아직까지 풀리지 않은 난제중 하나이다.
+
+**베르누이 행렬(bernoulli matrix) 문제**
+베르누이 행렬은 아다마르 행렬과 비슷하게 모든 성문이 $1,-1$인 행렬이다. 사실 아다마르 행렬이 특별한 베르누이 행렬이다.
+
+이 베르누이 행렬에 대해서도 풀리지 않은 난제가 있다. 무작위 $n\times n$ 베르누이 행렬의 열공간이 $\mathbb{R}^{n-1}$의 부분공간이 될 확률을 구하는 것이다.
+
+3차원
