@@ -89,9 +89,10 @@ $A$의 모든 행과 영공간의 벡터가 곱해져서 $0$이 된다. 즉, A�
 여기서 **SVD**와 연결된다.
 
 ##### Singular vectors
-| singular value & singular vector |
-|:--:|
-| $A\mathbf{v}_1 = \sigma_1\mathbf{u}_1, A\mathbf{v}_2 = \sigma_2\mathbf{u}_2, \ldots , A\mathbf{v}_r = \sigma_r\mathbf{u}_r$ |
+
+| singular value & singular vector ||
+|:--:|:--:|
+| $A\mathbf{v}_1 = \sigma_1\mathbf{u}_1, A\mathbf{v}_2 = \sigma_2\mathbf{u}_2, \ldots , A\mathbf{v}_r = \sigma_r\mathbf{u}_r$ ||
 
 ## Householder Reflections
 
