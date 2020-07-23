@@ -69,7 +69,7 @@ $\begin{bmatrix} -1 & 1 & 1 \end{bmatrix},\begin{bmatrix} -1 & 1 & 1 \end{bmatri
 $8$개의 벡터중 무작위로 $3$개를 뽑았을 때 세 벡터가 모두 indepencence할 확률을 계산하면 $\frac{5}{8}$이다. $n$차원 공간에서는 어떨까?
 
 #### Example of Orthogonal subspaces
-Strang 교수님의 Linear algebra의 **Big picture**을 떠올려보자.
+Linear algebra의 **Big picture**을 떠올려보자.
 
 ![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_5.png) 
 
