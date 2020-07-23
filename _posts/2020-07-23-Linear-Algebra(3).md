@@ -61,4 +61,15 @@ $n\times n$크기의 아다마르 행렬이 존재할 필요충분조건을 찾�
 
 이 베르누이 행렬에 대해서도 풀리지 않은 난제가 있다. 무작위 $n\times n$ 베르누이 행렬의 열공간이 $\mathbb{R}^{n-1}$의 부분공간이 될 확률을 구하는 것이다.
 
-3차원
+$3$차원 공간을 생각해보자. 모든 가능한 벡터는 다음과 같다.
+
+$\begin{bmatrix} 1 & 1 & 1 \end{bmatrix},\begin{bmatrix} 1 & 1 & -1 \end{bmatrix},\begin{bmatrix} 1 & -1 & 1 \end{bmatrix},\begin{bmatrix} 1 & -1 & -1 \end{bmatrix},$
+$\begin{bmatrix} -1 & 1 & 1 \end{bmatrix},\begin{bmatrix} -1 & 1 & 1 \end{bmatrix},\begin{bmatrix} -1 & 1 & -1 \end{bmatrix},\begin{bmatrix} -1 & -1 & -1 \end{bmatrix}$
+
+$8$개의 벡터중 무작위로 $3$개를 뽑았을 때 세 벡터가 모두 indepencence할 확률을 계산하면 $\frac{5}{8}$이다. $n$차원 공간에서는 어떨까?
+
+#### Example of Orthogonal subspaces
+Strang 교수님의 Linear algebra의 **Big picture**을 떠올려보자.
+
+![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/linearalgebra/20200722_5.png) 
+
