@@ -88,7 +88,6 @@ $A$의 모든 행과 영공간의 벡터가 곱해져서 $0$이 된다. 즉, A�
 
 여기서 **SVD**와 연결된다. 
 **SVD**는 데이터 과학에서 가장 중요한 정리중 하나로, $A$의 **행공간**에서 orthogonal basis $\mathbf{v}_1,\ldots,\mathbf{v}_r$을 찾고, **열공간**에서 $\mathbf{u}_1,\ldots,\mathbf{u}_r$을 찾는다. 
-어떤 특별한 basis는 
 
 ##### Singular vectors
 
@@ -96,5 +95,5 @@ $A$의 모든 행과 영공간의 벡터가 곱해져서 $0$이 된다. 즉, A�
 |:--:|:--:|
 | $A\mathbf{v}_1 = \sigma_1\mathbf{u}_1, A\mathbf{v}_2 = \sigma_2\mathbf{u}_2, \ldots , A\mathbf{v}_r = \sigma_r\mathbf{u}_r$ ||
 
-## Householder Reflections
+$A$의 행공간의 orthogonal basis는 $A$의 열공간의 orthogonal basis와 $A$를 통해서 연결된다.
 
