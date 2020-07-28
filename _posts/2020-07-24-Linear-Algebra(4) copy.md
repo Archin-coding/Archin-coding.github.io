@@ -22,12 +22,12 @@ last_modified_at: 2020-07-27T11:30:00-35:00
 
 $\begin{cases}\mathbf{v} = c_1\mathbf{x}_1 + \cdots + c_n\mathbf{x}_n \\ A\mathbf{v} = c_1\lambda_1\mathbf{x}_1 + \cdots + c_n\lambda_n\mathbf{x}_n\\ A^k\mathbf{v} = c_1\lambda^k_1\mathbf{x}_1 + \cdots + c_n\lambda^k_n\mathbf{x}_n\end{cases}$
 
-> #### Example
+#### Example
 > 회전변환 $Q=\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$의 고유값은 $i ,-i$이다.
 > $Q\begin{bmatrix} 1 \\ -i \end{bmatrix} = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ -i \end{bmatrix}=(i)\begin{bmatrix} 1 \\ -i \end{bmatrix}$
 > $Q\begin{bmatrix} 1 \\ i \end{bmatrix} = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ i \end{bmatrix}=(-i)\begin{bmatrix} 1 \\ i \end{bmatrix}$
 
-> #### 주의할 점
+#### 주의할 점
 > 1. $A + B$의 고윳값은 일반적으로 $\lambda(A)$와 $\lambda(B)$의 합과 다르다.
 > 2. $AB$의 고윳값은 일반적으로 $\lambda(A)$와 $\lambda(B)$의 곱과 다르다.
 > 3. 중복된 고윳값 $\lambda_1 = \lambda_2$ 는 일차독립인 2개의 고유벡터가 있을 수도 있고 없을 수도 있다.
@@ -55,7 +55,7 @@ $$\because (BAB^{-1})(B\mathbf{x} ) = BA\mathbf{x} = B\lambda \mathbf{x} = \lamb
 
 하지만 이 아이디어 또한 $B^{-1}$를 계산해야 한다는 한계점이 존재한다. 우리는 항상 더 편한 것을 추구하므로, 어떻게 하면 $B^{-1}$를 직접 계산하지 않고 행렬의 삼각화를 할 수 있을지 고민해야 한다. 다행히, 수학자들이 이미 충분히 좋은 방법을 찾았다.
 
-> #### Schur triangularization theorem
+#### Schur triangularization theorem
 > Every square complex matrix $A$ is unitarily similar to an upper-triangular matrix, i.e., there exists a unitary matrix $U$ such that $T = U^∗AU$ is triangular.
 
 $A$의 삼각화 $UAU^{-1}$에서 $U$가 **유니터리 행렬**(**unitary matrix**), 즉 $U^*=U$일 때 $A$가 unitarily similar라 한다. 이 정리를 간단하게 증명해보자
