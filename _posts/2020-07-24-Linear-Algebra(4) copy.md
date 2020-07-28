@@ -56,9 +56,9 @@ $$\because (BAB^{-1})(B\mathbf{x} ) = BA\mathbf{x} = B\lambda \mathbf{x} = \lamb
 하지만 이 아이디어 또한 $B^{-1}$를 계산해야 한다는 한계점이 존재한다. 우리는 항상 더 편한 것을 추구하므로, 어떻게 하면 $B^{-1}$를 직접 계산하지 않고 행렬의 삼각화를 할 수 있을지 고민해야 한다. 다행히, 수학자들이 이미 충분히 좋은 방법을 찾았다.
 
 #### Schur triangularization theorem
-> Every square complex matrix $A$ is unitarily similar to an upper-triangular matrix, i.e., there exists a unitary matrix $U$ such that $T = U^∗AU$ is triangular.
+> Every square complex matrix $A$ is unitarily similar to an upper-triangular matrix, i.e., there exists a unitary matrix $U$ such that $T = U^{\dag}AU$ is triangular.
 
-$A$의 삼각화 $UAU^{-1}$에서 $U$가 **유니터리 행렬**(**unitary matrix**), 즉 $U^*=U$일 때 $A$가 unitarily similar라 한다. 이 정리를 간단하게 증명해보자
+$A$의 삼각화 $UAU^{-1}$에서 $U$가 **유니터리 행렬**(**unitary matrix**), 즉 $U^{\dag}=U$일 때 $A$가 unitarily similar라 한다. 이 정리를 간단하게 증명해보자
 
 proof) We use mathematical induction on size of $A$.
 ($n=1$) trivial.
@@ -68,11 +68,11 @@ Let $\mathbf{x} = \frac{\bar{v1} \mathbf{v}}{\\|\bar{v1} \mathbf{v} \\|}$ and se
 $$\begin{cases} Q :\text{Householder matrix associated with } u & (\mathbf{x}\neq e_1)\\Q = I & (\mathbf{x}=e_1) \end{cases}$$
 
 Then $\mathbf{x} = Qe_1$, it means that the first column of $Q$ is $\mathbf{x}$. We already know that every householder matrix is unitary and hermitian.
-So $x^{*}$ is first row of $Q^{*}$. Since $Q^{-1}=Q^{*}=Q$, $Q = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix} =\begin{bmatrix} \mathbf{x}^{*} \\ V^*\end{bmatrix}$. Therefore,
-$$QAQ = QA = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix}= Q \begin{bmatrix} \lambda \mathbf{x} |  AV \end{bmatrix}= \begin{bmatrix} \lambda e_1 |  \begin{bmatrix} \mathbf{x}^{*} \\ V^{*}\end{bmatrix} AV \end{bmatrix}=\begin{bmatrix} \lambda & \mathbf{x}^*AV\\ \mathbf{0} & V^{*}AV \end{bmatrix}.$$
-The size of $V^{*} AV$ is $(n-1)\times (n-1)$, so we can apply the induction, there exists unitary matrix $R$ such that $T_{n-1} = R^{*} (V^{*} AV)R$ is upper triangular matrix. Let
+So $x^{\dag}$ is first row of $Q^{\dag}$. Since $Q^{-1}=Q^{\dag}=Q$, $Q = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix} =\begin{bmatrix} \mathbf{x}^{\dag} \\ V^*\end{bmatrix}$. Therefore,
+$$QAQ = QA = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix}= Q \begin{bmatrix} \lambda \mathbf{x} |  AV \end{bmatrix}= \begin{bmatrix} \lambda e_1 |  \begin{bmatrix} \mathbf{x}^{\dag} \\ V^{\dag}\end{bmatrix} AV \end{bmatrix}=\begin{bmatrix} \lambda & \mathbf{x}^{\dag}AV\\ \mathbf{0} & V^{\dag}AV \end{bmatrix}.$$
+The size of $V^{\dag} AV$ is $(n-1)\times (n-1)$, so we can apply the induction, there exists unitary matrix $R$ such that $T_{n-1} = R^{\dag} (V^{\dag} AV)R$ is upper triangular matrix. Let
 $$U = Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix},$$
 then 
-$$U^{*} U = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^{*} \end{bmatrix} Q^{*} Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix} = I.$$
+$$U^{\dag} U = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^{\dag} \end{bmatrix} Q^{\dag} Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix} = I.$$
 So $U$ is unitary. Hence,
-$T = U^{*} AU = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^* \end{bmatrix} QAQ \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix}$
+$T = U^{\dag} AU = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^{\dag} \end{bmatrix} QAQ \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix}$
