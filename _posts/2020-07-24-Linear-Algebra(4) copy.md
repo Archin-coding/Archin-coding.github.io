@@ -69,7 +69,7 @@ Let $\mathbf{x} = \frac{\bar{v1} \mathbf{v}}{\\|\bar{v1} \mathbf{v} \\|}$ and se
 $$\begin{cases} Q :\text{Householder matrix associated with } u & (\mathbf{x}\neq e_1)\\Q = I & (\mathbf{x}=e_1) \end{cases}$$
 
 Then $\mathbf{x} = Qe_1$, it means that the first column of $Q$ is $\mathbf{x}$. We already know that every householder matrix is unitary and hermitian.
-So $x^{\dag}$ is first row of $Q^{\dag}$. Since $Q^{-1}=Q^{\dag}=Q$, $Q = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix} =\begin{bmatrix} \mathbf{x}^{\dag} \\ V^*\end{bmatrix}$. Therefore,
+So $x^{\dag}$ is first row of $Q^{\dag}$. Since $Q^{-1}=Q^{\dag}=Q$, $Q = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix} =\begin{bmatrix} \mathbf{x}^{\dag} \\ V^{\dag}\end{bmatrix}$. Therefore,
 $$QAQ = QA = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix}= Q \begin{bmatrix} \lambda \mathbf{x} |  AV \end{bmatrix}= \begin{bmatrix} \lambda e_1 |  \begin{bmatrix} \mathbf{x}^{\dag} \\ V^{\dag}\end{bmatrix} AV \end{bmatrix}=\begin{bmatrix} \lambda & \mathbf{x}^{\dag}AV\\ \mathbf{0} & V^{\dag}AV \end{bmatrix}.$$
 The size of $V^{\dag} AV$ is $(n-1)\times (n-1)$, so we can apply the induction, there exists unitary matrix $R$ such that $T_{n-1} = R^{\dag} (V^{\dag} AV)R$ is upper triangular matrix. Let
 $$U = Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix},$$
