@@ -67,11 +67,11 @@ Let $\mathbf{x} = \frac{\bar{v1} \mathbf{v}}{\\|\bar{v1} \mathbf{v} \\|}$ and se
 
 $$\begin{cases} Q :\text{Householder matrix associated with } u & (\mathbf{x}\neq e_1)\\Q = I & (\mathbf{x}=e_1) \end{cases}$$
 
-Then $\mathbf{x} = Qe_1$, it means that the first column of $Q$ is $\mathbf{x}$. We already know that every householder matrix is unitary and hermitian. So $ x^{*} $ is first row of $Q^*$. Since $Q^{-1}=Q^*=Q$, $Q = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix} =\begin{bmatrix} \mathbf{x}^* \\ V^*\end{bmatrix}$. Therefore,
-$$QAQ = QA = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix}= Q \begin{bmatrix} \lambda \mathbf{x} |  AV \end{bmatrix}= \begin{bmatrix} \lambda e_1 |  \begin{bmatrix} \mathbf{x}^* \\ V^*\end{bmatrix} AV \end{bmatrix}=\begin{bmatrix} \lambda & \mathbf{x}^*AV\\ \mathbf{0} & V^*AV \end{bmatrix}.$$
-The size of $V^*AV$ is $(n-1)\times (n-1)$, so we can apply the induction, there exists unitary matrix $R$ such that $T_{n-1} = R^*(V^*AV)R$ is upper triangular matrix. Let
+Then $\mathbf{x} = Qe_1$, it means that the first column of $Q$ is $\mathbf{x}$. We already know that every householder matrix is unitary and hermitian. So $ x^{*} $ is first row of $Q^{*}$. Since $Q^{-1}=Q^{*}=Q$, $Q = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix} =\begin{bmatrix} \mathbf{x}^{*} \\ V^*\end{bmatrix}$. Therefore,
+$$QAQ = QA = \begin{bmatrix} \mathbf{x} |  V \end{bmatrix}= Q \begin{bmatrix} \lambda \mathbf{x} |  AV \end{bmatrix}= \begin{bmatrix} \lambda e_1 |  \begin{bmatrix} \mathbf{x}^{*} \\ V^{*}\end{bmatrix} AV \end{bmatrix}=\begin{bmatrix} \lambda & \mathbf{x}^*AV\\ \mathbf{0} & V^{*}AV \end{bmatrix}.$$
+The size of $V^{*} AV$ is $(n-1)\times (n-1)$, so we can apply the induction, there exists unitary matrix $R$ such that $T_{n-1} = R^{*} (V^{*} AV)R$ is upper triangular matrix. Let
 $$U = Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix},$$
 then 
-$$U^*U = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^* \end{bmatrix}Q^* Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix} = I.$$
+$$U^{*} U = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^{*} \end{bmatrix} Q^{*} Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix} = I.$$
 So $U$ is unitary. Hence,
-$T = U^* AU = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^* \end{bmatrix} QAQ \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix}$
+$T = U^{*} AU = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^* \end{bmatrix} QAQ \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix}$
