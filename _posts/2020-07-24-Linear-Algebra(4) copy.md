@@ -75,4 +75,4 @@ $$U = Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix},$$
 then 
 $$U^{\dag} U = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^{\dag} \end{bmatrix} Q^{\dag} Q\begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix} = I.$$
 So $U$ is unitary. Hence,
-$T = U^{\dag} AU = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^{\dag} \end{bmatrix} QAQ \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix}$
+$T = U^{\dagger} AU = \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R^{\dagger} \end{bmatrix} QAQ \begin{bmatrix} 1 & \mathbf{0} \\ \mathbf{0} & R \end{bmatrix}$
