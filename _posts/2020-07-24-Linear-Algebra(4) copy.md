@@ -22,18 +22,18 @@ last_modified_at: 2020-07-27T11:30:00-35:00
 
 $\begin{cases}\mathbf{v} = c_1\mathbf{x}_1 + \cdots + c_n\mathbf{x}_n \\ A\mathbf{v} = c_1\lambda_1\mathbf{x}_1 + \cdots + c_n\lambda_n\mathbf{x}_n\\ A^k\mathbf{v} = c_1\lambda^k_1\mathbf{x}_1 + \cdots + c_n\lambda^k_n\mathbf{x}_n\end{cases}$
 
-#### Example
+> ### Example
 > 회전변환 $Q=\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$의 고유값은 $i ,-i$이다.
 > $Q\begin{bmatrix} 1 \\ -i \end{bmatrix} = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ -i \end{bmatrix}=(i)\begin{bmatrix} 1 \\ -i \end{bmatrix}$
 > $Q\begin{bmatrix} 1 \\ i \end{bmatrix} = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ i \end{bmatrix}=(-i)\begin{bmatrix} 1 \\ i \end{bmatrix}$
 
-#### 주의할 점
+> ### 주의할 점
 > 1. $A + B$의 고윳값은 일반적으로 $\lambda(A)$와 $\lambda(B)$의 합과 다르다.
 > 2. $AB$의 고윳값은 일반적으로 $\lambda(A)$와 $\lambda(B)$의 곱과 다르다.
 > 3. 중복된 고윳값 $\lambda_1 = \lambda_2$ 는 일차독립인 2개의 고유벡터가 있을 수도 있고 없을 수도 있다.
 > 4. 실수행렬 $A$의 고유벡터가 직교하는 것과 $A^TA = AA^T$ 는 동치이다.
 
-#### 행렬과 연립미분방정식
+### 행렬과 연립미분방정식
 
 ### Computing the Eigenvalues (by hand)
 고유값과 고유벡터의 관계식에서
