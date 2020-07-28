@@ -21,7 +21,7 @@ $\newcommand\dag\dagger$
 
 고유벡터는 $A$에 의존하는 특별한 벡터이다. 만약 $n\times n$ 행렬 $A$의 고유벡터 $\mathbf{x}_1,\ldots , \mathbf{x}_n$이 일차독립이라면, 모든 $n$차원 벡터 $\mathbf{v}$는 다음과 같이 표현할 수 있다.
 
-$\begin{cases}\mathbf{v} = c_1\mathbf{x}_1 + \cdots + c_n\mathbf{x}_n \\ A\mathbf{v} = c_1\lambda_1\mathbf{x}_1 + \cdots + c_n\lambda_n\mathbf{x}_n\\ A^k\mathbf{v} = c_1\lambda^k_1\mathbf{x}_1 + \cdots + c_n\lambda^k_n\mathbf{x}_n\end{cases}$
+$$\begin{cases}\mathbf{v} = c_1\mathbf{x}_1 + \cdots + c_n\mathbf{x}_n \\ A\mathbf{v} = c_1\lambda_1\mathbf{x}_1 + \cdots + c_n\lambda_n\mathbf{x}_n\\ A^k\mathbf{v} = c_1\lambda^k_1\mathbf{x}_1 + \cdots + c_n\lambda^k_n\mathbf{x}_n\end{cases}$$
 
 > ### Example
 > 회전변환 $Q=\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$의 고유값은 $i ,-i$이다.
