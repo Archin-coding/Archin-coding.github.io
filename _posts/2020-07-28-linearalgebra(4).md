@@ -10,4 +10,4 @@ header:
 last_modified_at: 2020-07-28T11:30:00-35:00
 ---
 
-<iframe src = "/ViewerJS/#../assets/pdf/eigenvalue.pdf" width='1024' height='768' allowfullscreen webkitallowfullscreen></iframe>
+<iframe src = "/ViewerJS/#../assets/pdf/eigenvalue.pdf" width='800' height='600' allowfullscreen webkitallowfullscreen></iframe>
