@@ -1,10 +1,6 @@
 ---
 title:  "Tensor Analysis-Introduction(2)"
 excerpt: "Tensor Multiplications 소개"
-use_math: true
-toc: true
-toc_sticky: true
-toc_label: "페이지 주요 목차"
 categories:
   - Tensor
 tags:
