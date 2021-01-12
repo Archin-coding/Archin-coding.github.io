@@ -10,3 +10,5 @@ tags: [publication]
 ## Journal
 - 2019
     - "On Newton's Method for Solving a System of Nonlinear Matrix Equations.", East Asian mathematical journal, 35.3 (2019): 341-349.
+- 2020
+    - "Development of an Algorithm Improving Label Arrangements in Offset Printing", International Journal of Mathematics for Industry (2020)
