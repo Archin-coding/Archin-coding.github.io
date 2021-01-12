@@ -1,5 +1,5 @@
 ---
-title:  "Numerical Linear Algebra(8)"
+title:  "Traften : Numerical Linear Algebra(8)"
 excerpt: "Other Eigenvalue Algorithms"
 categories:
   - Linear Algebra

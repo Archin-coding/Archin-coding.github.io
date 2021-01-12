@@ -1,5 +1,5 @@
 ---
-title:  "Numerical Linear Algebra(3)"
+title:  "Traften : Numerical Linear Algebra(3)"
 excerpt: "Householder Triangularization"
 categories:
   - Linear Algebra
