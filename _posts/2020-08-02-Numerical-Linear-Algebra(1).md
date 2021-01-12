@@ -11,4 +11,6 @@ header:
 last_modified_at: 2020-08-02T11:30:00-35:00
 ---
 
+**Trefethen : Numerical Linear Algebra**의 **Lecture 3. Matrix norms** 에 관하여 정리하였다.
+
 <iframe src = "/ViewerJS/#../assets/pdf/Norms.pdf" width='800' height='600' allowfullscreen webkitallowfullscreen></iframe>
