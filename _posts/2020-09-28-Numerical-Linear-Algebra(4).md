@@ -1,5 +1,5 @@
 ---
-title:  "Traften : Numerical Linear Algebra(4)"
+title:  "Trefethen : Numerical Linear Algebra(4)"
 excerpt: "Conditioning and Condition Numbers"
 categories:
   - Numerical Linear Algebra

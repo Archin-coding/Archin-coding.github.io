@@ -1,5 +1,5 @@
 ---
-title:  "Traften : Numerical Linear Algebra(6)"
+title:  "Trefethen : Numerical Linear Algebra(6)"
 excerpt: "Eigenvalue Problems"
 categories:
   - Numerical Linear Algebra

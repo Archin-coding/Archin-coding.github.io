@@ -1,5 +1,5 @@
 ---
-title:  "Traften : Numerical Linear Algebra(9)"
+title:  "Trefethen : Numerical Linear Algebra(9)"
 excerpt: "The Arnoldi Iteration"
 categories:
   - Numerical Linear Algebra

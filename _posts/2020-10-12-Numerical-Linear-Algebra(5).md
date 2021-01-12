@@ -1,5 +1,5 @@
 ---
-title:  "Traften : Numerical Linear Algebra(5)"
+title:  "Trefethen : Numerical Linear Algebra(5)"
 excerpt: "Stability"
 categories:
   - Numerical Linear Algebra

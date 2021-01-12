@@ -1,5 +1,5 @@
 ---
-title:  "Traften : Numerical Linear Algebra(2)"
+title:  "Trefethen : Numerical Linear Algebra(2)"
 excerpt: "Projectors"
 categories:
   - Numerical Linear Algebra

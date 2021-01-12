@@ -1,5 +1,5 @@
 ---
-title:  "Traften : Numerical Linear Algebra(1)"
+title:  "Trefethen : Numerical Linear Algebra(1)"
 excerpt: "Matrix norms"
 categories:
   - Numerical Linear Algebra

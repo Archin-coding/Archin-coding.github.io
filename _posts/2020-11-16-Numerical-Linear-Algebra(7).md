@@ -1,5 +1,5 @@
 ---
-title:  "Traften : Numerical Linear Algebra(7)"
+title:  "Trefethen : Numerical Linear Algebra(7)"
 excerpt: "QR Algorithm without Shifts"
 categories:
   - Numerical Linear Algebra
