@@ -5,7 +5,7 @@ categories:
   - Numerical Linear Algebra
 tags:
   - Numerical Linear Algebra
-  - Traften
+  - Trefethen
 header:
   teaser: /assets/images/linearalgebra.png
 last_modified_at: 2021-01-04T11:30:00-35:00
