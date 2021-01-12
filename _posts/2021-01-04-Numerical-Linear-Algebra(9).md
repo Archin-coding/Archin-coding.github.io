@@ -2,9 +2,10 @@
 title:  "Traften : Numerical Linear Algebra(9)"
 excerpt: "The Arnoldi Iteration"
 categories:
-  - Linear Algebra
+  - Numerical Linear Algebra
 tags:
-  - Linear Algebra
+  - Numerical Linear Algebra
+  - Traften
 header:
   teaser: /assets/images/linearalgebra.png
 last_modified_at: 2021-01-04T11:30:00-35:00

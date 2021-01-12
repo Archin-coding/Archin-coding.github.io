@@ -2,9 +2,10 @@
 title:  "Traften : Numerical Linear Algebra(8)"
 excerpt: "Other Eigenvalue Algorithms"
 categories:
-  - Linear Algebra
+  - Numerical Linear Algebra
 tags:
-  - Linear Algebra
+  - Numerical Linear Algebra
+  - Traften
 header:
   teaser: /assets/images/linearalgebra.png
 last_modified_at: 2020-11-29T11:30:00-35:00

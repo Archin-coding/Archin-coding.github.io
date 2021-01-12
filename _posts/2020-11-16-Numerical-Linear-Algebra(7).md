@@ -2,9 +2,10 @@
 title:  "Traften : Numerical Linear Algebra(7)"
 excerpt: "QR Algorithm without Shifts"
 categories:
-  - Linear Algebra
+  - Numerical Linear Algebra
 tags:
-  - Linear Algebra
+  - Numerical Linear Algebra
+  - Traften
 header:
   teaser: /assets/images/linearalgebra.png
 last_modified_at: 2020-11-16T11:30:00-35:00
