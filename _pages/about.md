@@ -10,4 +10,4 @@ layout: single
 
 이 블로그에서는 제가 공부하고 싶은, 공부하는 것들을 틈틈히 올릴 예정입니다.
 
-<iframe src = "/ViewerJS/#../assets/pdf/cv_of_th_kim.pdf" width='750' height='1050' allowfullscreen webkitallowfullscreen></iframe>
+<iframe src = "/ViewerJS/#../assets/pdf/cv_of_th_kim.pdf" width='700' height='980' allowfullscreen webkitallowfullscreen></iframe>
