@@ -28,7 +28,7 @@ Liqun Qi, Ziyan Lou의
 
 우리가 잘 아는 matrix로 예로 들어보자.
 
-$$A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$$
+$ A = \begin{bmatrix} 1 & 2 & 3 \\\ 4 & 5 & 6 \end{bmatrix}$
 
 Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **텐서**이다.
 
@@ -55,15 +55,15 @@ Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **텐서**이다.
 
 행렬로 예를 들기 위해서 $f:\mathbb{R}^n \rightarrow \mathbb{R}$ 함수가 $2$차 미분에 대해서 연속이라고 가정하자.
 
-$$\nabla^{(2)}f(\mathbf{x})=\begin{bmatrix} \frac{\partial ^2 f}{\partial x_1 \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_1 \partial x_n}(\mathbf{x})\\ \vdots & \ddots & \vdots \\ \frac{\partial ^2 f}{\partial x_n \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_n \partial x_n}(\mathbf{x}) \end{bmatrix}$$
+$\nabla^{(2)}f(\mathbf{x})=\begin{bmatrix} \frac{\partial ^2 f}{\partial x_1 \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_1 \partial x_n}(\mathbf{x})\\\ \vdots & \ddots & \vdots \\\ \frac{\partial ^2 f}{\partial x_n \partial x_1}(\mathbf{x}) & \cdots & \frac{\partial ^2 f}{\partial x_n \partial x_n}(\mathbf{x}) \end{bmatrix}$
 
 $\nabla^{(2)}f(\mathbf{x})$가 대칭 행렬이라는 것을 알 수 있다.
 
 > ### Example 1.2. Coefficient tensors of multi-variate homogeneous polynomial forms.
 > 텐서 $\mathscr{A}=(a_{i_{1}\cdots i_{m}}) \in T_{m,n}$에 대해서 다음 동차 다항식 
->$$f(\mathbf{x})=\sum\limits_{i_1,\ldots,i_m=1}^{n} a_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
+>$f(\mathbf{x})=\sum\limits_{i_1,\ldots,i_m=1}^{n} a_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$
 을 만들 수 있다. 이 때 유일한 대칭 텐서 $\mathscr{B}=(b_{i_{1}\cdots i_{m}}) \in S_{m,n}$가 존재해서
->$$f(\mathbf{x}) \equiv \sum\limits_{i_1,\ldots,i_m=1}^{n} b_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$$
+>$f(\mathbf{x}) \equiv \sum\limits_{i_1,\ldots,i_m=1}^{n} b_{i_{1}\cdots i_{m}}x_{i_1}\cdots x_{i_m}$
 가 된다.
 $\mathscr{B}$는 $\mathscr{A}$의 **대칭화**(**symmetrization**)라고 하며 $\mathscr{B} = \mathrm{Sym}(\mathscr{A})$라고 한다.
 
@@ -71,17 +71,17 @@ $\mathscr{B}$는 $\mathscr{A}$의 **대칭화**(**symmetrization**)라고 하며
 
 $(i_1,\ldots,i_m)$에 대해서 가능한 모든 치환의 집합을 $P$라고 하자. $\forall (i_1,\ldots,i_m)\in P$에 대해서 $b_{i_{1}\cdots i_{m}}$를 다음과 같이 정의하자.
 
-$$b_{i_{1}\cdots i_{m}} = \frac{\sum\limits_{(i_1,\ldots,i_m)\in P}a_{i_{1}\cdots i_{m}}}{|P|}$$
+$b_{i_{1}\cdots i_{m}} = \frac{\sum\limits_{(i_1,\ldots,i_m) \in P}a_{i_{1}\cdots i_{m}}}{\|P\|}$
 
 $\mathscr{B}=(b_{i_{1}\cdots i_{m}})$는 대칭 텐서이다.
 
 다시 행렬로 대칭화를 이해해보자.
 
-$$A=\begin{bmatrix} 1 & 3 & 5 \\ 9 & 2 & 1 \\ 3 & 3 & 3 \end{bmatrix}$$
+$A=\begin{bmatrix} 1 & 3 & 5 \\\ 9 & 2 & 1 \\\ 3 & 3 & 3 \end{bmatrix} $
 
 라 하자. $B=(b_{ij})=\mathrm{Sym}(A)$의 각 원소는 $b_{ij}=\frac{a_{ij}+a_{ji}}{2}$이고 따라서 $B=\mathrm{Sym}(A)$ 다음과 같다.
 
-$$B=\begin{bmatrix} 1 & 6 & 4 \\ 6 & 2 & 2 \\ 4 & 2 & 3 \end{bmatrix}$$
+$B=\begin{bmatrix} 1 & 6 & 4 \\\ 6 & 2 & 2 \\\ 4 & 2 & 3 \end{bmatrix}$
 
 ### Notation
 앞으로 우리는 많은 요소들을 다룰 예정이다. 스칼라, 벡터, 행렬 그리고 텐서.
