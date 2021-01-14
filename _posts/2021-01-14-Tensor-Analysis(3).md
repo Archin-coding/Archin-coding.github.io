@@ -109,4 +109,4 @@ An even-order symmetric, diagonally dominated tensor is positive semidefinite. A
 ### Corollary 2.8.
 Suppose that $\mathscr{A}\in T_{m,n}$ is a nonnegative tensor with an equal row sum $r$. Then $r$ is the spectral radius of $\mathscr{A}$.
 
-Next : Characteristic Polynomials
+**Next : Characteristic Polynomials**
