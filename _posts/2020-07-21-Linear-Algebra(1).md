@@ -19,7 +19,7 @@ Gilbert Strang 교수님의 "Linear Algebra and Learning from Data"에 대해서
 필요하다면 [MIT Linear Algebra 강의](https://www.youtube.com/playlist?list=PLUl4u3cNGP61iQEFiWLE21EJCxwmWvvek)를 참고할 예정이다.
 # Introduction
 ## 1.1 Multiplication $Ax$ Using Columns of $A$
-$$A\mathbf{x} = \begin{bmatrix} 2 & 3 \\ 2 & 4 \\ 3 & 7 \end{bmatrix}\begin{bmatrix} x_1\\x_2\end{bmatrix}$$
+\\[A\mathbf{x} = \begin{bmatrix} 2 & 3 \\ 2 & 4 \\ 3 & 7 \end{bmatrix}\begin{bmatrix} x_1\\x_2\end{bmatrix}\\]
 
 이 간단한 행렬 방정식을 보는 방식은 $2$가지가 있다. **행**(**row**)으로 보는 것과 **열**(**column**)로 보는 것.
 
