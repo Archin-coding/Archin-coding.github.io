@@ -37,13 +37,13 @@ $A^T\mathbf{y}=0$의 모든 해 $\mathbf{y}$
 간단한 Example을 통해서 이 부분공간들의 concept과 이 공간들이 왜 중요한지에 대해서 이해해보자.
 
 ### Example  
-$$A=\begin{bmatrix}1&2\\3&6\end{bmatrix}=\mathbf{uv}^T$$
+\\[A=\begin{bmatrix}1&2\cr 3&6\end{bmatrix}=\mathbf{uv}^T\\]
 
 모든 부분공간들은 $\mathbb{R}^2$의 부분공간이다.
-1. $\mathbf{C}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 1 \\ 3 \end{bmatrix}$을 지나는 직선
-2. $\mathbf{C}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 1 \\ 2 \end{bmatrix}$을 지나는 직선
-3. $\mathbf{N}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 2 \\ -1 \end{bmatrix}$을 지나는 직선
-4. $\mathbf{N}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 3 \\ -1 \end{bmatrix}$을 지나는 직선
+1. $\mathbf{C}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 1 \cr 3 \end{bmatrix}$을 지나는 직선
+2. $\mathbf{C}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 1 \cr 2 \end{bmatrix}$을 지나는 직선
+3. $\mathbf{N}(A)$는 원점과 $\mathbf{u}=\begin{bmatrix} 2 \cr -1 \end{bmatrix}$을 지나는 직선
+4. $\mathbf{N}(A^T)$는 원점과 $\mathbf{u}=\begin{bmatrix} 3 \cr -1 \end{bmatrix}$을 지나는 직선
 
 우리는 이 벡터들중 두 쌍이 직교한다는 것을 쉽게 알 수 있다.
 
@@ -55,9 +55,9 @@ $$A=\begin{bmatrix}1&2\\3&6\end{bmatrix}=\mathbf{uv}^T$$
 
 심지어 $A$가 $m\times n$ 행렬일 때, 각 부분공간의 차원은 다음과 같은 관계를 가진다.
 
-$$\mathrm{dim}(\mathbf{C}(A^T))+\mathrm{dim}(\mathbf{N}(A))=n$$
+\\[\mathrm{dim}(\mathbf{C}(A^T))+\mathrm{dim}(\mathbf{N}(A))=n\\]
 
-$$\mathrm{dim}(\mathbf{C}(A))+\mathrm{dim}(\mathbf{N}(A^T))=m$$
+\\[\mathrm{dim}(\mathbf{C}(A))+\mathrm{dim}(\mathbf{N}(A^T))=m\\]
 
 이것을 선형대수학의 **The Big Picture**라고 한다.
 

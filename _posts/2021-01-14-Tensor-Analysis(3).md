@@ -24,7 +24,7 @@ last_modified_at: 2021-01-14T11:30:00-35:00
 
 시작하기 전에, 행렬의 고유값을 구하는 과정을 떠올려보자.
 
-$A\mathbf{x} = \lambda \mathbf{x}$
+\\[A\mathbf{x} = \lambda \mathbf{x}\\]
 
 위 일차 연립 방정식의 해가 되는 영 아닌 벡터 $\mathbf{x}$와 그 때의 $\lambda$가 각각 행렬의 고유 벡터, 고윳값이 된다.
 
@@ -36,13 +36,13 @@ $A\mathbf{x} = \lambda \mathbf{x}$
 
 다행스럽게도, 우리는 텐서에 벡터를 곱해서 벡터가 되는 곱을 알고 있다. 바로 **$k$-mode product**이다.
 
-$\left(\mathscr{A}\mathbf{x}^{m-1} \right)_i = \lambda x_i^{m-1}$
+\\[\left(\mathscr{A}\mathbf{x}^{m-1} \right)_i = \lambda x_i^{m-1}\\]
 
 위 식을 만족하는 $\mathbf{x}$와 그 때의 $\lambda$를 우리는 $\mathscr{A}$의 고유 벡터와 고윳값으로 부르자.
 
 그리고 벡터 $\mathbf{x}$의 각각의 원소를 $m-1$ 제곱한 벡터를 $\mathbf{x}^{[m-1]}$로 표기하면 식은 다음과 같아진다.
 
-$\mathscr{A}\mathbf{x}^{m-1}  = \lambda \mathbf{x}^{[m-1]}$
+\\[\mathscr{A}\mathbf{x}^{m-1}  = \lambda \mathbf{x}^{[m-1]}\\]
 
 행렬의 경우와 마찬가지로, $\mathscr{A}$의 모든 고윳값들의 집합을 **spertrum**라고 하며, 가장 크기가 큰(norm이 큰) 고윳값을 $\mathscr{A}$의 **spectral radius**라고 하며 $\rho (\mathscr{A})$로 표기한다.
 
@@ -54,7 +54,7 @@ Let $\mathscr{A}\in T_{m,n}$ and $\alpha, \beta \in \mathbb{R}$. If $(\lambda, \
 ### H-Eigenvalues and H-Eigenvectors
 텐서 $\mathscr{A}$가 **H-eigenvalue**를 가진다는 것은 실 고유 벡터를 가진다는 말과 같다. 즉,
 
-$\mathscr{A}\mathbf{x}^{m-1}  = \lambda \mathbf{x}^{[m-1]}$
+\\[\mathscr{A}\mathbf{x}^{m-1}  = \lambda \mathbf{x}^{[m-1]}\\]
 
 를 만족하는 실 벡터 $\mathbf{x}$가 존재할 때, $\mathbf{x}$와 그 때의 $\lambda$를 각각 **H-eigenvector**, **H-eigenvalue**라고 한다. 텐서 $\mathscr{A}$와 벡터 $\mathbf{x}$가 둘 다 실수이기 때문에, $\mathscr{A}\mathbf{x}^{m-1}$ 또한 실수이고, 따라서 고윳값 $\lambda$ 또한 실수가 된다.
 
@@ -69,7 +69,7 @@ Suppose that $\mathscr{A}\in S_{m,n}$ and $m$ is even. Then $\mathscr{A}$ **alwa
 
 다음 minimization problem을 생각해보자.
 
-$\min \mathscr{A} \mathbf{x}^m$ subject to $\sum\limits_{i=1}^{n} x_i^m = 1, \mathbf{x} \in \mathbb{R}$.
+\\[\min \mathscr{A} \mathbf{x}^m \text{ subject to } \sum\limits_{i=1}^{n} x_i^m = 1, \mathbf{x} \in \mathbb{R}\\]
 
 $m$이 짝수이기 때문에 $\mathbf{x}$는 compact set위에 모두 있고, $\mathscr{A} \mathbf{x}^m$는 연속 함수이다. 따라서 $\mathscr{A} \mathbf{x}^m$를 최소화시키는 $\mathbf{x}^{\*}$는 반드시 존재한다. 따라서 $\mathscr{A}\mathbf{x}^{m-1}  = \lambda \mathbf{x}^{[m-1]}$를 만족하는 $\lambda_{\*}$와 $\mathbf{x}^{\*}$ optimal Lagrange multiplier $\lambda_{\*}$가 존재한다.
 
@@ -80,7 +80,7 @@ $m$이 짝수이기 때문에 $\mathbf{x}$는 compact set위에 모두 있고, $
 ### Theorem 2.4
 Let $\mathscr{A}\in T_{m,n}$ be a nonnegative tensor. Then $\mathscr{A}$ has at least one H-eigenvalue and
 
-$\lambda_{H\max}(\mathscr{A}) = \rho (\mathscr{A})$
+\\[\lambda_{H\max}(\mathscr{A}) = \rho (\mathscr{A})\\]
 
 Furthermore, the H-eigenvalue $\lambda_{H\max}(\mathscr{A})$ has a nonnegative H-eigenvector.
 
@@ -99,7 +99,7 @@ Let $\mathscr{A}\in T_{m,n}$.  Then the eigenvalues of $\mathscr{A}$ lie in the 
 ### Diagonally Dominated Tensors
 Let $\mathscr{A}\in T_{m,n}$. We say that $\mathscr{A}$ is **diagonally dominated** if for any $i\in [n]$ we have
 
-$2a_{i\cdots i} \geq \sum\limits_{i_2,\ldots , i_m=1}^{n} \| a_{i i_2 \cdots i_m} \|$.
+\\[2a_{i\cdots i} \geq \sum\limits_{i_2,\ldots , i_m=1}^{n} \| a_{i i_2 \cdots i_m} \|\\]
 
 그럼 **diagonally dominated**과 **Proposition 2.6**으로부터 다음과 같은 Corollary들을 얻을 수 있다.
 
