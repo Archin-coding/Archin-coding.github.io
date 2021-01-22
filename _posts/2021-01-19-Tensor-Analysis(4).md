@@ -33,9 +33,9 @@ last_modified_at: 2021-01-19T11:30:00-35:00
 
 그렇다면, 텐서 $\mathscr{A}$의 특성 다항식은 어떤 형태를 하고, 어떤 성질을 가지고 있을까?
 
-# 2.1 Eigenvalues and H-Eigenvalues
+# 2.1. Eigenvalues and H-Eigenvalues
 
-## 2.1.3 Characteristic Polynomial
+## 2.1.3. Characteristic Polynomial
 
 이 책에서는 텐서의 특성 다항식을 **resultant**로 정의하고 있다.
 정확히 말하면 텐서의 고윳값을 구하는 식인  
@@ -74,5 +74,21 @@ last_modified_at: 2021-01-19T11:30:00-35:00
 
 행렬의 경우와 마찬가지로, 텐서의 characteristic polynomial, determinant, trace의 관계에 관한 몇 가지 중요한 성질이 있다.
 
-### Theorem 2.12
-Suppose that 
+### Theorem 2.12.
+Suppose that $\mathscr{A} \in T_{m,n}$. Then we have the following conclusions:
+
+1. A complex number $\lambda$ is an eiganvalue of $\mathscr{A}$ if and only if it is a root if the chatacteristic polynomial $\pi_{\mathscr{A}} (\lambda)$.
+2. The number of eigenvalues of $\mathscr{A}$ is $d = n(m-1)^{n-1}$. their product is equal to $\det (\mathscr{A})$.
+3. If $\mathscr{A}$ is diagonal, then $\mathscr{A}$ has $n$ H-eigenvalues, which are its diagonal entries, with corresponding unit vectors as theig H-eigenvectors. Each of these H-eigenvalues is of multiplicity $(m-1)^{n-1}$, and $\mathscr{A}$ has no N-eigenvalues.
+4. The sum of all the eigenvalues of $\mathscr{A}$ is
+ \\[ (m-1)^{n-1} \mathrm{tr} (\mathscr{A}) \\]
+
+### Theorem 2.13.
+Suppose that $\mathscr{A} \in T_{m,n}$. Then we have the following conclusions.
+
+1. The eigenvalues of $\mathscr{A}$ lie in the union of n disks in $\mathbb{C}$. These $n$ disks have the diagonal entries of $\mathscr{A}$ as their centers, and the sums of the asolute values of the off-diagonal entries as their radii.
+2. If ons of these $n$ disks is disjoint with the order $n-1$ disks, then there are exactly $(m-1)^{n-1}$ eigenvalues which lie in this disk, and when $m$ is even there is at least one H-eigenvalue which lies in this disk.
+3. If $k$ of these $n$ disks are connected but disjoint with the order $n-k$ disks, then there are axactly $k(m-1)^{n-1}$ eigenvalues which lie in the union of there $k$ disks. Moreover when $m$ is even at least one H-eigenvalue lies in this union if one of the following three conditions holds:
+   1. $k$ is odd;
+   2. $k$ is even and the other $n-k$ disks are on the left side of this union;
+   3. $k$ is even and the other $n-k$ disks are on the right side of this union.
