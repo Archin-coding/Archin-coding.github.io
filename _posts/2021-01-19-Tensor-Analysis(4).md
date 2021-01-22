@@ -92,3 +92,29 @@ Suppose that $\mathscr{A} \in T_{m,n}$. Then we have the following conclusions.
    1. $k$ is odd;
    2. $k$ is even and the other $n-k$ disks are on the left side of this union;
    3. $k$ is even and the other $n-k$ disks are on the right side of this union.
+
+
+## 2.1.4. Some Properties of Determinants
+이 절에서는 텐서의 determinant의 몇 가지 기본적인 성질들을 소개한다.
+
+### Proposition 2.14.
+For any $\mathscr{A} \in T_{m,n}$, the determinant of $\mathscr{A}$, termed $\det (\mathscr{A})$, is a homogeneous polynomial is the entries of $\mathscr{A}$, with the degree $d=n(m-1)^{n-1}$. The degree of $a_{i\cdots i}$ in $\det (\mathscr{A})$ is not greater than $(m-1)^{n-1}$.
+
+### Corollary 2.15.
+For any real number $\alpha$, $\det (\alpha \mathscr{A}) = \alpha^{n(m-1)^{n-1}} \det (\mathscr{A})$.
+
+### Proposition 2.16.
+For any $\mathscr{A} \in T_{m,n}$, $\prod\limits_{i=1}^{n} a_{i\cdots i}^{(m-1)^{n-1}}$ is a term of the homogeneous polynomial $\det (\mathscr{A})$.
+In partidular, is $\mathscr{A}$ is diagonal, then
+
+\\[ \det (\mathscr{A}) = \prod\limits_{i=1}^{n} a_{i\cdots i}^{(m-1)^{n-1}} \\]
+
+### Proposition 2.17.
+In the expression of $\det (\mathscr{A})$, except for the term
+
+\\[ \prod\limits_{i=1}^{n} a_{i\cdots i}^{(m-1)^{n-1}} \\]
+
+as specified by Proposition 2.16, the total degree with respect to $a_{1\cdots 1}, a_{2\cdots 2}, \ldots , a_{n\cdots n}$ is not greater than $n(m-1)^{n-1}-2$.
+
+
+**Next : E-Eigenvalues and Z-Eigenvalues**
