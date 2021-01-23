@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Archin"
-  avatar           : "/assets/images/og2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**수학**과 **코딩**을 잘하고 싶은 대학원생"
   location         : "Pusan, South Korea"
   email            :
