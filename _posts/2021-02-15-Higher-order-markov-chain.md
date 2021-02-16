@@ -222,3 +222,42 @@ Corollary 1을 일반화 하면 다음 Corollary를 얻을 수 있다.
 ### Corollary 2
 If $p$ is a transition probability tensor for an $(m-1)$-order Markov chain, then we have
 
+\\[
+  \begin{aligned}
+    & P(X_n = i_n \| X_{0} = i_{n-1}, X_{-1} = i_{n-2}, \ldots , X_{2-m} = i_{n-m+1}) \cr
+    =& p^n (i_{n}, i_{n-1}, i_{n-2}, \ldots ,i_{n-m+1}) \cr
+    =& \sum\limits_{k_2} p^{n-1} (i_{n}, k_2, i_{n-1}, \ldots ,i_{n-m}) p (k_2, i_{n-1}, i_{n-2}, \ldots ,i_{n-m+1})
+  \end{aligned}  
+\\]
+
+$m>3$이라고 하자.
+우리는 transition probability tensor $p$의 거듭제곱에 대해서는 정의했지만 $m>3$일 때 $(m-1)$-order Markov chain에 대해서 Chapman–Kolmogorov equation이 더이상 성립하지 않는다는 것을 알 수 있다.
+대신 다음 정리가 성립한다.
+
+### Theorem 4
+If $p$ is a transition probability tensor for an $(m-1)$-order Markov chain, then for any $n,l\in \mathbb{N}$
+
+\\[
+  \begin{aligned}
+    &p^{l+n}(i_{n}, i_{n-1}, i_{n-2}, \ldots ,i_{n-m+1}) \cr
+    =& \sum\limits_{k_{1}, k_{2}, \ldots ,k_{m-1}}  p^{l} (i_{n}, k_{1}, k_{2}, \ldots ,k_{m-1}) \cr
+    &\times P(X_n = k_1 , X_{n-1} = k_2 ,\ldots, X_{n-m+1} = k_{m-2} \| X_{m-n} = k_{m-1}, X_{-m-1} = i_{n-1}, \ldots , X_{-2m-1}=i_{n-m+1} ) \cr
+    &\times p^{n-m} (k_{m-1},i_{n-1},i_{n-2},\ldots , i_{n-m+1}) 
+  \end{aligned}
+\\]
+
+#### proof
+
+### Theorem 5
+If $p$ is a transition probability tensor for an $(m-1)$-order Markov chain, then for any $k,n,l\in \mathbb{N}$ which $l>m$, we have
+
+\\[
+  \begin{aligned}
+    &p^{l+n+k}(i_{n}, i_{n-1}, i_{n-2}, \ldots ,i_{n-m+1}) \cr
+    =& \sum\limits_{k_{1}, k_{2}, \ldots ,k_{m-1}}  p^{k} (i_{n}, k_{1}, k_{2}, \ldots ,k_{m-1}) \cr
+    &\times p^{l} (k_{l+1}, i_{n-1}, \ldots, i_{n-m+1}) \cr
+    &\times P(X_{n+l} = k_1 , X_{n-1} = k_2 ,\ldots, X_{n-1} = k_{l} \| X_{n} = k_{l+1}, X_{0} = i_{n-1}, \ldots , X_{-m+2}=i_{n-m+1} ) 
+  \end{aligned}
+\\]
+
+#### proof
