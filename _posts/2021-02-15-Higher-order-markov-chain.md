@@ -15,6 +15,23 @@ header:
   teaser: /assets/images/blog.png
 last_modified_at: 2021-02-15T23:20:00-21:00
 ---
+
+일반적으로 **텐서**(**tensor**) $\mathscr{A}=(a_{i_{1}\cdots i_{m}})$는 $a_{i_{1}\cdots i_{m}}\in \mathbf{F}:\textrm{field}$ where $i_{j}=1,\ldots,n_{j},\textrm{ for }j=1,\ldots,m$인 multi-array이다.
+
+우리가 잘 아는 matrix로 예로 들어보자.
+
+\\[ A = \begin{bmatrix} 1 & 2 & 3 \cr 4 & 5 & 6 \end{bmatrix} \\]
+
+Matrix $A=(a_{i_{1}i_{2}})$는 $i_1=1,2$, $i_2=1,2,3$ 인 **텐서**이다.
+
+여기서 $m$은 **텐서**의 **위수**(**order**)이고, $(n_1,\ldots,n_m)$은 **텐서**의 **차원**(**dimension**)이다.
+
+행렬 $A$의 크기가 $2\times 3=6$인 것 처럼, tensor $\mathscr{A}$의 **크기**(**size**)는 $n_1\times \cdots \times n_m$이다.
+
+만약 $n_1=\cdots = n_m$이면, $\mathscr{A}$는 $m$th order $n$-dimensional tensor라고 한다.
+
+그리고 $m$th order $n$-dimensional real tensor을 모두 모은 집합을 $T_{m,n}$라고 한다.
+
 # 1. INTRODUCTION 
 미래를 예측하는 것은 언제나 인간이 가장 하고 싶어하는 일이다. 
 유효한 방법 중 하나가 바로 Markov chain을 사용하는 것이다.
