@@ -131,7 +131,7 @@ $p$의 $0$보다 큰 원소를 모두 $1$로 만들고 이것을 $G_p$라고 하
 
 그리고 $p$가 periodic하다 것은 일정한 주기 $t$에 대해서 반드시 state로 돌아오는 주기가 있을 때를 말하고 그렇지 않을 때 $p$가 **aperiodic**하다고 한다.
 
-## 1.2. Tensors and hegher-order Markov chains
+## 1.2. Tensors and higher-order Markov chains
 다음은 우리에게 익숙한 Tensor와 vector간의 $k$-mode product에서 파생된 정의이다.
 
 ### Definition 3
