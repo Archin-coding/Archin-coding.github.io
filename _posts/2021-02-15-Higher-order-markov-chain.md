@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/blog.png
 last_modified_at: 2021-02-15T23:20:00-21:00
 ---
-
+# 0. TENSOR
 일반적으로 **텐서**(**tensor**) $\mathscr{A}=(a_{i_{1}\cdots i_{m}})$는 $a_{i_{1}\cdots i_{m}}\in \mathbf{F}:\textrm{field}$ where $i_{j}=1,\ldots,n_{j},\textrm{ for }j=1,\ldots,m$인 multi-array이다.
 
 우리가 잘 아는 matrix로 예로 들어보자.
