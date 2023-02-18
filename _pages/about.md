@@ -1,6 +1,6 @@
 ---
 title: "About Archin"
-permalink: /About/
+permalink: /about/
 layout: single
 ---
 
