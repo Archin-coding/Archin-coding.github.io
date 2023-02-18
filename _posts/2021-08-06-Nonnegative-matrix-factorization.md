@@ -2,7 +2,7 @@
 title:  "Nonnegative Matrix Factorization"
 excerpt: "NMF model and Applications"
 categories:
-  - Numerical Linear Algebra
+  - Presentation
 tags:
   - Nonnegative matrix factorization
 header:

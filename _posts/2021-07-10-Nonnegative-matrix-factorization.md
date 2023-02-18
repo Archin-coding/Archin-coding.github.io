@@ -1,5 +1,5 @@
 ---
-title:  "Nonnegative Matrix Factorization"
+title:  "Nonnegative Matrix Factorization: NMF Models"
 excerpt: "NMF model and Applications"
 categories:
   - Numerical Linear Algebra

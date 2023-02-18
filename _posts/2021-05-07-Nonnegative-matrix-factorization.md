@@ -1,6 +1,6 @@
 ---
-title:  "Nonnegative Matrix Factorization"
-excerpt: "Exact MNF"
+title:  "Nonnegative Matrix Factorization: Exact NMF"
+excerpt: "Exact NMF"
 categories:
   - Numerical Linear Algebra
 tags:
