@@ -10,4 +10,10 @@ layout: single
 
 이 블로그에서는 제가 공부하고 싶은, 공부하는 것들을 틈틈히 올릴 예정입니다.
 
-<iframe src = "/ViewerJS/#../assets/pdf/cv_of_th_kim.pdf" width='700px' height='980px' allowfullscreen webkitallowfullscreen></iframe>
+# CV
+
+![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/cv_of_th_kim_1.jpg)
+
+![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/cv_of_th_kim_2.jpg)
+
+![](https://raw.githubusercontent.com/Archin-coding/Archin-coding.github.io/master/assets/images/cv_of_th_kim_3.jpg)
