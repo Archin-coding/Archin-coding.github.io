@@ -3,6 +3,8 @@ title:  "Trefethen : Numerical Linear Algebra(5)"
 excerpt: "Stability"
 categories:
   - Numerical Linear Algebra
+  - Seminar
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen

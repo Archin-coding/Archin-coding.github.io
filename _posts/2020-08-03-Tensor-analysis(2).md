@@ -3,6 +3,7 @@ title:  "Tensor Analysis-Introduction(2)"
 excerpt: "Tensor Multiplications 소개"
 categories:
   - Tensor
+  - Seminar
 tags:
   - Tensor
 header:

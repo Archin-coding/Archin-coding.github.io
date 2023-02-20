@@ -3,6 +3,7 @@ title:  "Trefethen : Numerical Linear Algebra(8)"
 excerpt: "Other Eigenvalue Algorithms"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen

@@ -3,6 +3,7 @@ title:  "Trefethen : Numerical Linear Algebra(7)"
 excerpt: "QR Algorithm without Shifts"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen

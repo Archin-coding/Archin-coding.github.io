@@ -7,6 +7,7 @@ toc_sticky: true
 toc_label: "페이지 주요 목차"
 categories:
   - Tensor
+  - Seminar
 tags:
   - Tensor
 header:

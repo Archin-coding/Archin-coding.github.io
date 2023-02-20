@@ -3,6 +3,7 @@ title:  "Trefethen : Numerical Linear Algebra(3)"
 excerpt: "Householder Triangularization"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen

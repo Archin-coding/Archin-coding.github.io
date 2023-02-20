@@ -3,6 +3,7 @@ title:  "Trefethen : Numerical Linear Algebra(4)"
 excerpt: "Conditioning and Condition Numbers"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen

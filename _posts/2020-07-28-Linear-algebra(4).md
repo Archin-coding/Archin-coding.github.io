@@ -3,6 +3,7 @@ title:  "Linear Algebra and Learning from Data(4)"
 excerpt: "Gilbert Strang 교수님의 Linear Algebra and Learning from Data"
 categories:
   - Linear Algebra
+  - Seminar
 tags:
   - Linear Algebra
 header:

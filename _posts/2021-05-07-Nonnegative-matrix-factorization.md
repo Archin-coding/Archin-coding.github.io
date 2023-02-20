@@ -3,6 +3,7 @@ title:  "Nonnegative Matrix Factorization: Exact NMF"
 excerpt: "Exact NMF"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Nonnegative matrix factorization
 header:

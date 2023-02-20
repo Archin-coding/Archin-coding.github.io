@@ -3,6 +3,7 @@ title:  "Trefethen : Numerical Linear Algebra(2)"
 excerpt: "Projectors"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen

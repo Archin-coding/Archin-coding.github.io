@@ -3,6 +3,7 @@ title:  "Trefethen : Numerical Linear Algebra(1)"
 excerpt: "Matrix norms"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen

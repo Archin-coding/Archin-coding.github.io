@@ -3,6 +3,7 @@ title:  "Trefethen : Numerical Linear Algebra(6)"
 excerpt: "Eigenvalue Problems"
 categories:
   - Numerical Linear Algebra
+  - Seminar
 tags:
   - Numerical Linear Algebra
   - Trefethen
