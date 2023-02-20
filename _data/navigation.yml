@@ -2,11 +2,11 @@
 main:
   - title: "Category"
     url: /categories/
-  - title: "Tensor"
-    url: /categories/Tensor/
-  - title: "Linear Algebra"
-    url: /categories/LinearAlgebra/
-  - title: "About"
+  - title: "Seminar"
+    url: /categories/Seminar/
+  - title: "Presentation"
+    url: /categories/Presentation/
+  - title: "CV"
     url: /about/
   - title: "Publications"
     url: /publications/
